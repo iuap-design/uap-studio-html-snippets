@@ -1,0 +1,11 @@
+<!--messageDialog 调用提示模态框-->
+<button id="msgDialogBtn" class="u-button raised accent">消息提示框</button>
+<script type="text/javascript">
+    u.compMgr.apply({
+        el:'body'
+    })
+    var msgBtn = document.body.querySelector("#msgDialogBtn");
+    u.on(msgBtn, 'click', function() {
+        u.messageDialog({ msg: "HELLO!!!", title: "测试提示", btnText: "OK!" });
+    })
+</script>

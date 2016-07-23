@@ -1,0 +1,2 @@
+<!--需要填写: data 、 pageChange、 sizeChange 属性-->
+<div class='u-pagination pagination' u-meta='{"type":"pagination","data":"","pageChange":"","sizeChange":""}'></div>

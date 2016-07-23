@@ -1,0 +1,4 @@
+<label class="u-checkbox" for="checkbox-1">
+    <input type="checkbox" id="checkbox-1" class="u-checkbox-input">
+    <span class="u-checkbox-label">我是描述</span>
+</label>

@@ -1,0 +1,26 @@
+<table class="u-table" data-upgraded=",u.Table">
+    <thead>
+        <tr>
+            <th> </th>
+            <th> </th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr class="is-selected">
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </tbody>
+</table>

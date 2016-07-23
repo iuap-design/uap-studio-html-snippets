@@ -1,0 +1,2 @@
+<!--用于即时信息的提示，消息背景色取决于消息类型，易可添加相对应的icon-->
+<div class="u-message u-mesnews active" ><span class="u-msg-close fa fa-close"></span>News!</div>

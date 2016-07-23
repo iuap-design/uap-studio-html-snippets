@@ -1,0 +1,24 @@
+<div class="u-mdlayout">
+	<div class="u-mdlayout-master" style="display:none"></div>
+	<div class="u-mdlayout-detail">
+		<div class="u-mdlayout-page u-navlayout-fixed-header current" id="list">
+			<div class="u-mdlayout-page-section">
+			<!--第一屏内容-->	
+			
+			</div>
+		</div>
+		<div class="u-mdlayout-page u-navlayout-fixed-header" id="addPage">
+			<div class="u-mdlayout-page-section">
+			<!--第二屏内容-->
+			
+			</div>
+		</div>
+
+		<div class="u-mdlayout-page u-navlayout-fixed-header" id="showPage">
+			<div class="u-mdlayout-page-section">
+			<!--第3屏内容-->
+
+			</div>
+		</div>
+	</div>
+</div>

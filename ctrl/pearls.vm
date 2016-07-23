@@ -1,0 +1,17 @@
+<!--增加样式 .col-xs-4{width: 33.3%;float: left;}，可以在一条横线上显示-->
+<div class="example">
+    <div class="pearls pearls-xs row">
+        <div class="pearl done col-xs-4">
+            <span class="pearl-number">1</span>
+            <span class="pearl-title">Account Info</span>
+        </div>
+        <div class="pearl current col-xs-4">
+            <span class="pearl-number">2</span>
+            <span class="pearl-title">Billing Info</span>
+        </div>
+        <div class="pearl col-xs-4">
+            <span class="pearl-number">3</span>
+            <span class="pearl-title">Confirmation</span>
+        </div>
+    </div>
+</div>

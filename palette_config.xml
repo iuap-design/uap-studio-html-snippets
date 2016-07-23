@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PaletteGroups isDefaultOpenCodeModule="true" isShowBasicModuleName="true">
+    <PaletteGroup groupId="layout" initialState="INITIAL_STATE_CLOSED" name="布局" smallIcon="icons/">
+        <largeIcon></largeIcon>
+        <PaletteItem largeIcon="icons/" name="栅格" smallIcon="icons/" templateId="gridLayout">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+       <PaletteItem largeIcon="icons/" name="滑屏" smallIcon="icons/" templateId="mdLayout">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+         <pluginId></pluginId>
+    </PaletteGroup>
+    <PaletteGroup groupId="ctrl" initialState="INITIAL_STATE_OPEN" name="控件" smallIcon="icons/">
+        <largeIcon></largeIcon>
+        <PaletteItem largeIcon="icons/" name="按钮" smallIcon="icons/" templateId="button">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+         <PaletteItem largeIcon="icons/" name="分页" smallIcon="icons/" templateId="pagination">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="单选框" smallIcon="icons/" templateId="radio">
+        <pluginId></pluginId>
+        <showDialog>false</showDialog>
+        <PaletteItem largeIcon="icons/" name="复选框" smallIcon="icons/" templateId="checkbox">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="开关" smallIcon="icons/" templateId="switch">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="标签" smallIcon="icons/" templateId="label">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="表格" smallIcon="icons/" templateId="datatable">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="图片" smallIcon="icons/" templateId="image">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="徽章" smallIcon="icons/" templateId="badge">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="提示消息" smallIcon="icons/" templateId="message">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="页签" smallIcon="icons/" templateId="tabs">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="提示" smallIcon="icons/" templateId="tooltip">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="面包屑" smallIcon="icons/" templateId="breadcrumb">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="进度条" smallIcon="icons/" templateId="progress">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="面板" smallIcon="icons/" templateId="panel">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="流程" smallIcon="icons/" templateId="pearls">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="模态框" smallIcon="icons/" templateId="modal">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="评分" smallIcon="icons/" templateId="rating">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <pluginId></pluginId>
+    </PaletteGroup>
+</PaletteGroups>

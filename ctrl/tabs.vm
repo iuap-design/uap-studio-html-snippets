@@ -1,0 +1,30 @@
+<!--tabs控件 切换active状态包括线性跟随和背景跟随 tabs控件依赖 u-tabs 类，状态类是共用的。 改变修饰类可以改变active样式。 默认是active状态为线性跟随 添加修饰类.u-tabs-pill 为背景跟随-->
+<div class="u-tabs">
+    <div class="u-tabs__tab-bar">
+        <a href="#tab-panel-1" class="u-tabs__tab is-active">页签1</a>
+        <a href="#tab-panel-2" class="u-tabs__tab">页签2</a>
+        <a href="#tab-panel-3" class="u-tabs__tab">页签3</a>
+    </div>
+    <div class="u-tabs__panel is-active" id="tab-panel-1">
+        <ul>
+            <li>项目1</li>
+            <li>项目2</li>
+            <li>项目3</li>
+            <li>项目4</li>
+            <li>项目5</li>
+        </ul>
+    </div>
+    <div class="u-tabs__panel" id="tab-panel-2">
+        <ul>
+            <li>项目1</li>
+            <li>项目2</li>
+            <li>项目3</li>
+        </ul>
+    </div>
+    <div class="u-tabs__panel" id="tab-panel-3">
+        <ul>
+            <li>项目1</li>
+            <li>项目2</li>
+        </ul>
+    </div>
+</div>
