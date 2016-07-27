@@ -10,7 +10,10 @@
             <pluginId></pluginId>
             <showDialog>false</showDialog>
         </PaletteItem>
-         <pluginId></pluginId>
+       <PaletteItem largeIcon="icons/" name="导航条" smallIcon="icons/" templateId="navbarLayout">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
     </PaletteGroup>
     <PaletteGroup groupId="ctrl" initialState="INITIAL_STATE_OPEN" name="控件" smallIcon="icons/">
         <largeIcon></largeIcon>
@@ -18,7 +21,7 @@
             <pluginId></pluginId>
             <showDialog>false</showDialog>
         </PaletteItem>
-         <PaletteItem largeIcon="icons/" name="分页" smallIcon="icons/" templateId="pagination">
+        <PaletteItem largeIcon="icons/" name="分页" smallIcon="icons/" templateId="pagination">
             <pluginId></pluginId>
             <showDialog>false</showDialog>
         </PaletteItem>
@@ -85,6 +88,61 @@
             <pluginId></pluginId>
             <showDialog>false</showDialog>
         </PaletteItem>
-        <pluginId></pluginId>
+        <PaletteItem largeIcon="icons/" name="下拉菜单" smallIcon="icons/" templateId="dropdown">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="按钮组" smallIcon="icons/" templateId="buttongroup">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="输入框组" smallIcon="icons/" templateId="inputgroup">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="缩略图" smallIcon="icons/" templateId="thumbnail">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="表盘选择" smallIcon="icons/" templateId="clockpicker">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="日期" smallIcon="icons/" templateId="date">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="月份选择" smallIcon="icons/" templateId="month">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="时分秒" smallIcon="icons/" templateId="time">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="年份选择" smallIcon="icons/" templateId="year">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="年月选择" smallIcon="icons/" templateId="yearmonth">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="loading" smallIcon="icons/" templateId="loading">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="下拉框" smallIcon="icons/" templateId="combobox">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="隐藏菜单" smallIcon="icons/" templateId="menu">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
+        <PaletteItem largeIcon="icons/" name="树" smallIcon="icons/" templateId="tree">
+            <pluginId></pluginId>
+            <showDialog>false</showDialog>
+        </PaletteItem>
     </PaletteGroup>
 </PaletteGroups>

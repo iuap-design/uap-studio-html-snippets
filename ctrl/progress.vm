@@ -1,1 +1,8 @@
-<div id="p2" class="u-progress u-progress__indeterminate"></div>
+<!--参数说明：setProgress(para)。para:比例数据-->
+<div id="p1" class="u-progress"></div>
+<script type="text/javascript">
+    u.on(window, 'load', function() {
+        'use strict';
+        document.querySelector('#p1')['u.Progress'].setProgress(33);
+    });
+</script>
