@@ -7,6 +7,14 @@
                 view:{
                     showLine:false,
                     multiSelect:true
+                },
+                callback:{
+                    onClick:function(e,id,node){
+                      /*  console.log(id)
+                        console.log(node)*/
+                        var rightInfo = node.name + '被选中';
+                        u.showMessage({msg:rightInfo,position:"top"})
+                    }
                 }
             },
             dataTable: new u.DataTable({
@@ -23,65 +31,54 @@
                 }
             })
         };
-    var app = u.createApp();
+        var app = u.createApp();
         app.init(viewModel);
         var data = {
-          "pageIndex": 1,
-          "pageSize": 10,
-          "rows": [
-            {
-              "status": "nrm",
-              "data": {
-                "id": "01",
-                "pid": "root",
-                "title": "f1"
-              }
-            },
-            {
-              "status": "nrm",
-              "data": {
-                "id": "02",
-                "pid": "root",
-                "title": "f2"
-              }
-            },
-            {
-              "status": "nrm",
-              "data": {
-                "id": "101",
-                "pid": "01",
-                "title": "f11"
-              }
-            },
-            {
-              "status": "nrm",
-              "data": {
-                "id": "102",
-                "pid": "01",
-                "title": "f12"
-              }
-            },
-            {
-              "status": "nrm",
-              "data": {
-                "id": "201",
-                "pid": "02",
-                "title": "f21"
-              }
-            }
-          ]
+            "pageIndex": 1,
+            "pageSize": 10,
+            "rows": [
+                {
+                    "status": "nrm",
+                    "data": {
+                        "id": "01",
+                        "pid": "root",
+                        "title": "f1"
+                    }
+                },
+                {
+                    "status": "nrm",
+                    "data": {
+                        "id": "02",
+                        "pid": "root",
+                        "title": "f2"
+                    }
+                },
+                {
+                    "status": "nrm",
+                    "data": {
+                        "id": "101",
+                        "pid": "01",
+                        "title": "f11"
+                    }
+                },
+                {
+                    "status": "nrm",
+                    "data": {
+                        "id": "102",
+                        "pid": "01",
+                        "title": "f12"
+                    }
+                },
+                {
+                    "status": "nrm",
+                    "data": {
+                        "id": "201",
+                        "pid": "02",
+                        "title": "f21"
+                    }
+                }
+            ]
         }
-        // ajax 获取数据源
-        /* $.ajax({
-             type: 'GET',
-             url: 'treeJson.json',
-             dataType: 'JSON',
-             async: true,
-             success: function (data) {
-
-              }
-           });
-        */
         viewModel.dataTable.setData(data);
         window.app=app;
         $("#addOneRow1").on("click",function(){

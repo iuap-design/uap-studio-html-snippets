@@ -1,0 +1,9 @@
+
+<div class="u-input-group">
+  <span class="u-input-group-addon">
+    <label  class="u-radio">
+        <input type="radio" class="u-radio-button" checked>
+    </label>
+  </span>
+    <input type="text" class="u-form-control">
+</div>

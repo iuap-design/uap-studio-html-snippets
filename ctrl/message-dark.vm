@@ -6,4 +6,7 @@
 .u-mesdanger:红色
 .u-meswarning:橘色
 -->
-<div class="u-message u-mesnews active" ><span class="u-msg-close fa fa-close"></span>News!</div>
+<div class="u-message dark u-mesnews active" >
+    <span class="u-msg-close uf uf-removesymbol"></span>
+    <i class="uf uf-bellmusicaltool margin-r-10"></i>News!
+</div>

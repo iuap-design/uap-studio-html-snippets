@@ -1,0 +1,7 @@
+<div id="p3" class="u-progress" style="top: 15px;"></div>
+<script>
+    u.on(window, 'load', function() {
+        'use strict';
+        document.querySelector('#p3')['u.Progress'].setProgress(33).setBuffer(87);
+    });
+</script>

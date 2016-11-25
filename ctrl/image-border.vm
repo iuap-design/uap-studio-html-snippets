@@ -1,0 +1,7 @@
+<!--需要设置路径，大小，alt-->
+<!--
+.image-bordered-primary:主色
+.image-bordered-orange:橘色
+.image-bordered-green:绿色
+-->
+<img class="img-rounded img-bordered img-bordered-primary" width="..." height="..." src="..." alt="...">

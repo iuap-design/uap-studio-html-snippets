@@ -1,0 +1,5 @@
+<!--用于两种状态的切换,input的id与label的for属性值保持一致-->
+<label class="u-switch u-switch-info" for="switch-info-checkdisalbed">
+    <input type="checkbox" id="switch-info-checkdisalbed" class="u-switch-input" checked disabled>
+    <span class="u-switch-label"></span>
+</label>

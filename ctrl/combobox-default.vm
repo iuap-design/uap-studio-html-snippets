@@ -1,0 +1,11 @@
+
+<div class="u-combo" id="combo1">
+    <div class="u-input-group u-has-feedback">
+        <input class="u-form-control" />
+        <span class="u-form-control-feedback uf uf-anglearrowdown" data-role="combo-button"></span>
+    </div>
+</div>
+<script>
+    u.compMgr.updateComp();
+    document.getElementById('combo1')['u.Combo'].setComboData([{value:'01',name:'男'},{value:'02',name:'女'}]);
+</script>

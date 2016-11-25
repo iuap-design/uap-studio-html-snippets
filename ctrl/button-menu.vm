@@ -1,0 +1,10 @@
+<!--无色：.u-button 绿色：.u-button-sucess 红色：.u-button-danger 橘色：.u-button-warning-->
+<button class="u-button u-menu-button  u-button-warning " id="demo-menu-lower-right1">
+    联查
+    <span class="u-right-icon uf uf-anglearrowdown"></span>
+</button>
+<!--无色：.u-menu 绿色：.u-menu-sucess 红色：.u-menu-danger 橘色：.u-menu-warning-->
+<ul class="u-menu u-menu-bottom-right u-menu-warning" for="demo-menu-lower-right1">
+    <li class="u-menu-item "><a>报价单</a></li>
+    <li class="u-menu-item"><a>到货单</a></li>
+</ul>

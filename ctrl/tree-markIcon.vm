@@ -1,0 +1,103 @@
+<style>
+    #markIcon li span.button.ico_open:after{
+        content:'\e62b';
+    }
+    #markIcon li span.button.ico_close:after{
+        content:'\e62b';
+    }
+    #markIcon li span.button.ico_docu:after{
+        content:'\e62b';
+    }
+</style>
+
+<div id="markIcon">
+    <div id="treeTest1" class="ztree" u-meta='{"id":"tree1","data":"dataTable","type":"tree","idField":"id","pidField":"pid","nameField":"title","setting":"treeSetting"}'></div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var viewModel = {
+            treeSetting: {
+                view: {
+                    showLine: false,
+                    selectedMulti: false
+                },
+                callback: {
+                    onClick: function (e, id, node) {
+                        // alert(id)
+                        // alert(node)
+                        var rightInfo = node.name + '±»Ñ¡ÖÐ';
+                        u.showMessage({msg: rightInfo, position: "top"})
+
+
+                    }
+                }
+            },
+            dataTable: new u.DataTable({
+                meta: {
+                    'id': {
+                        'value': ""
+                    },
+                    'pid': {
+                        'value': ""
+                    },
+                    'title': {
+                        'value': ""
+                    }
+                }
+            })
+        };
+        var app = u.createApp({
+            el: document.body,
+            model: viewModel
+        })
+        var data = {
+            "pageIndex": 1,
+            "pageSize": 10,
+            "rows": [
+                {
+                    "status": "nrm",
+                    "data": {
+                        "id": "01",
+                        "pid": "root",
+                        "title": "Parent1"
+                    }
+                },
+                {
+                    "status": "nrm",
+                    "data": {
+                        "id": "02",
+                        "pid": "root",
+                        "title": "Parent2"
+                    }
+                },
+                {
+                    "status": "nrm",
+                    "data": {
+                        "id": "101",
+                        "pid": "01",
+                        "title": "Child11"
+                    }
+                },
+                {
+                    "status": "nrm",
+                    "data": {
+                        "id": "102",
+                        "pid": "01",
+                        "title": "mChild12"
+                    }
+                },
+                {
+                    "status": "nrm",
+                    "data": {
+                        "id": "201",
+                        "pid": "02",
+                        "title": "Child21"
+                    }
+                }
+            ]
+        }
+        viewModel.dataTable.setData(data);
+
+
+    });
+</script>

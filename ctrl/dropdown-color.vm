@@ -1,0 +1,16 @@
+<!--
+.u-button-info .u-menu-info:蓝色
+.u-button-success .u-menu-success:绿色
+.u-button-danger .u-menu-danger:红色
+.u-button-warning .u-menu-warning:橘色
+-->
+<button class="u-button  u-button-info u-menu-button" id="demo-menu-info">
+    info
+    <span class="u-right-icon uf uf-anglearrowdown"></span>
+</button>
+<ul class="u-menu u-menu-bottom-right u-menu-info" for="demo-menu-info">
+    <li class="u-menu-item"><a href="javascript:void(0)">action zero</a></li>
+    <li class="u-menu-item"><a href="javascript:void(0)">action one</a></li>
+    <li class="u-menu-item"><a href="javascript:void(0)">action two</a></li>
+    <li class="u-menu-item"><a href="javascript:void(0)">action three</a></li>
+</ul>

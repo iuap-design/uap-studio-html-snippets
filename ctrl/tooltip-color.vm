@@ -1,0 +1,11 @@
+<!--
+.tooltip-primary:原色
+.tooltip-success:绿色
+.tooltip-warning:橘色
+.tooltip-danger:红色
+.tooltip-info:蓝色
+-->
+<div class="tooltip tooltip-primary top active" role="tooltip">
+    <div class="tooltip-arrow"></div>
+    <div class="tooltip-inner">primary tooltip</div>
+</div>

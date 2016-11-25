@@ -1,0 +1,10 @@
+<!--
+.top:默认向上显示
+.bottom:向下显示
+.left:向左显示
+.right：向右显示
+-->
+<div class="tooltip top active" role="tooltip" style="top: 5px;left:5px;">
+    <div class="tooltip-arrow"></div>
+    <div class="tooltip-inner">默认向上显示</div>
+</div>

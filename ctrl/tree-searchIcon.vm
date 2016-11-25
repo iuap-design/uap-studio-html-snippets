@@ -1,0 +1,146 @@
+ <style>
+
+        #searchIcon .searchTree {
+            border-radius: 4px;
+            border: 1px solid #eee;
+            padding: 5px 15px;
+        }
+
+        .seached a {
+            color: blue !important;
+        }
+ </style>
+
+ <div class="u-widget  u-widget-right" id="searchIcon">
+     <div class="u-widget-heading">
+         <h3 class="u-widget-title">Search Tree</h3>
+     </div>
+     <div class="u-widget-body" id="ExpIcon">
+         <div>
+             <input id="SearchTreeNode" type="search" class="searchTree" placeholder="Searching...">
+         </div>
+         <div class="demo">
+             <div>
+                 <div id="treeTest6" class="ztree"
+                      u-meta='{"id":"tree6","data":"dataTable","type":"tree","idField":"id","pidField":"pid","nameField":"title","setting":"treeSetting"}'></div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <script>
+     var viewModel = {
+         treeSetting: {
+             view: {
+                 showLine: false,
+                 selectedMulti: false
+             },
+             callback: {
+                 onClick: function (e, id, node) {
+                     // alert(id)
+                     // alert(node)
+                     var rightInfo = node.name + '被选中';
+                     u.showMessage({msg: rightInfo, position: "top"})
+
+
+                 }
+             }
+         },
+         dataTable: new u.DataTable({
+             meta: {
+                 'id': {
+                     'value': ""
+                 },
+                 'pid': {
+                     'value': ""
+                 },
+                 'title': {
+                     'value': ""
+                 }
+             }
+         })
+     };
+     var app = u.createApp({
+         el: document.body,
+         model: viewModel
+     })
+     var data = {
+         "pageIndex": 1,
+         "pageSize": 10,
+         "rows": [
+             {
+                 "status": "nrm",
+                 "data": {
+                     "id": "01",
+                     "pid": "root",
+                     "title": "Parent1"
+                 }
+             },
+             {
+                 "status": "nrm",
+                 "data": {
+                     "id": "02",
+                     "pid": "root",
+                     "title": "Parent2"
+                 }
+             },
+             {
+                 "status": "nrm",
+                 "data": {
+                     "id": "101",
+                     "pid": "01",
+                     "title": "Child11"
+                 }
+             },
+             {
+                 "status": "nrm",
+                 "data": {
+                     "id": "102",
+                     "pid": "01",
+                     "title": "mChild12"
+                 }
+             },
+             {
+                 "status": "nrm",
+                 "data": {
+                     "id": "201",
+                     "pid": "02",
+                     "title": "Child21"
+                 }
+             }
+         ]
+     }
+     viewModel.dataTable.setData(data);
+     Searching = document.querySelector('#SearchTreeNode');
+     /*
+      实时过滤节点
+      */
+     u.on(Searching, "keyup", function () {
+
+         var searchkey = $(this).val();
+         if (searchkey !== "") {
+             console.log(searchkey);
+
+             // 定义过滤条件
+             var filter = function (node) {
+                 return node.name.indexOf(searchkey) > -1;
+             }
+             // 过滤出节点
+             var nodes = $("#tree6")[0]['u-meta'].tree.getNodesByFilter(filter);
+
+             // 没有匹配，去掉被搜索状态
+             if (nodes.length === 0) {
+                 $(".selected").removeClass("seached");
+             }
+             // 循环匹配节点 展开父节点并添加搜索状态
+             for (var n = 0; n < nodes.length; n++) {
+                 $("#tree6")[0]['u-meta'].tree.expandNode(nodes[n].getParentNode(), true, true, true);
+                 $("#" + nodes[n].tId).addClass("seached")
+             }
+         } else {
+             // searchkey为空 则去掉被搜索状态
+             $(".selected").removeClass("seached");
+         }
+
+     });
+
+ </script>

@@ -1,0 +1,6 @@
+<!--
+.u-tag-lg：大标签
+.u-tag:默认尺寸
+. u-tag-sm：小尺寸
+-->
+<span class="u-tag u-tag-lg u-tag-primary">大标签</span>

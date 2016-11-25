@@ -1,0 +1,12 @@
+<!--
+.u-switch-primary - 主色开关
+.u-switch-success - 绿色开关
+.u-switch-info - 蓝色开关
+.u-switch-warning - 橙色开关
+.u-switch-danger - 红色开关
+.u-switch-dark - 灰色开关
+-->
+<label class="u-switch u-switch-warning" for="switch-warning">
+    <input type="checkbox" id="switch-warning" class="u-switch-input" checked>
+    <span class="u-switch-label"></span>
+</label>

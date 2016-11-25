@@ -1,0 +1,3 @@
+<!--特大尺寸：.u-button-xg 大尺寸：.u-button-lg  默认尺寸：.u-button 小尺寸：.u-button-sm-->
+<button class="u-button u-button-primary u-button-xg">特大尺寸
+</button>

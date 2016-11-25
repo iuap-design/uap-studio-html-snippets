@@ -1,0 +1,4 @@
+<!--主色: .u-button-primary 辅色： .u-button-accent 橘色: .u-button-warning 无色： .u-button -->
+<button class="u-button u-button-floating u-button-primary">
+    <i class="uf uf-plusblacksymbol"></i>
+</button>

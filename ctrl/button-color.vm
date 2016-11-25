@@ -1,0 +1,2 @@
+<!-- 红色：.u-button-danger 绿色：.u-button-success 橘色：.u-button-warning 蓝色：.u-button-info -->
+<button class="u-button   u-button-danger">danger</button>
