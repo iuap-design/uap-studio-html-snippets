@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Title</title>
+<link rel="stylesheet" href="http://design.yyuap.com/static/uploader/css/webuploader.css">
+<link rel="stylesheet" href="http://design.yyuap.com/static/uui/latest/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/u.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/tree.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/grid.css">
+<style id="demo-style" media="screen">
+.u-navlayout-toolbar li{
+	list-style: none;
+}
+#toggleMenubar #menubutton{
+    line-height: 35px;
+    font-size: 15px;
+    color: #fff;
+    left: 0;
+    position: relative;
+    height: 0;
+}
+.u-navlayout-header .u-navlayout-toolbar{
+    list-style: none;
+}
+.u-navlayout-header .u-navlayout-toolbar li{
+    float: left;
+}
+.u-navlayout-fixed-drawer > .u-navlayout-drawer {
+    -webkit-transform: translate3d(-240px,0,0);
+    -ms-transform: translate(-240px,0);
+    -ms-transform: translate3d(-240px,0,0);
+    transform: translate3d(-240px,0,0);
+}
+.u-navlayout-header .u-navlayout-toolbar li a{
+    color: #fff;
+    text-decoration: none;
+}
+.u-navlayout-header .u-navlayout-toolbar li .u-topic{
+    font-size:20px;
+}
+.u-navlayout-header .u-navlayout-toolbar #toggleMenubar{
+    line-height: 32px;
+    width: 14px;
+    margin-right: 20px;
+}
+.u-frame-navlayout{
+    background: #eceff1;
+}
+.u-menubar-open.u-navlayout-drawer{
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate(0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0); 
+}
+.u-navlayout-drawer {
+    position: fixed;
+    top: 67px;
+    z-index: 1;
+    width: 260px;
+    height: 100%;
+    height: -webkit-calc(100% - 66px);
+    height: calc(100% - 66px);
+    font-family: Roboto,sans-serif;
+    color: rgba(117,117,117,.9);
+    background: #fff;
+    -webkit-box-shadow: 3px 0 6px 0 rgba(0,0,0,.05),3px 0 15px 0 rgba(0,0,0,.1);
+    box-shadow: 3px 0 6px 0 rgba(0,0,0,.05),3px 0 15px 0 rgba(0,0,0,.1);
+    opacity: 0;
+    -webkit-transition: width .25s,opacity .25s,-webkit-transform .25s;
+    -o-transition: width .25s,opacity .25s,-o-transform .25s;
+    transition: width .25s,opacity .25s,transform .25s;
+    -webkit-transform: translate3d(-240px,0,0);
+    -ms-transform: translate(-240px,0);
+    -ms-transform: translate3d(-240px,0,0);
+    transform: translate3d(-240px,0,0);
+}
+.u-navlayout-header{
+    box-shadow:none;
+}
+.u-navlayout-fixed-drawer.is-upgraded:not(.is-small-screen)>.u-navlayout-header{
+    margin: 0;
+    width:100%;
+}
+.menuAnimal{
+     transition:All 0.4s ease-in-out;    
+     -webkit-transition:All 0.4s ease-in-out;    
+     -moz-transition:All 0.4s ease-in-out;    
+     -o-transition:All 0.4s ease-in-out;
+}
+.u-navlayout-center{
+    position: absolute;
+    left: 50%;
+    padding: 0;
+    -webkit-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    -ms-margin-top:-30px;
+}
+.u-navlayout-right{
+    position: absolute;
+    right: 2%;
+    -ms-margin-top:-30px;
+}
+.u-navlayout-right .right-content{
+    line-height: 66px;
+}
+.showAnimal:hover {    
+    transform:rotate(90deg);    
+    -webkit-transform:rotate(90deg);    
+    -moz-transform:rotate(90deg);    
+    -o-transform:rotate(90deg);    
+    -ms-transform:rotate(90deg);
+ }
+.hideAnimal:hover {    
+    transform:rotate(-90deg);    
+    -webkit-transform:rotate(-90deg);    
+    -moz-transform:rotate(-90deg);    
+    -o-transform:rotate(-90deg);    
+    -ms-transform:rotate(-90deg);
+ }
+ .u-navlayout-header .u-navlayout-toolbar li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hide{
+	display: none;
+}
+.u-navlayout-header-row{
+	padding-left: 0;
+}
+.u-navlayout-drawer{
+    left: 21px;
+}
+</style>
+</head>
+<body style="background-color: #eceff1;margin-left: 20px;width: calc(100% - 20px );">
+<div class="u-frame-navlayout u-navlayout-fixed-drawer u-navlayout-fixed-header">
+	<!-- 头部导航 -->
+	<header class="u-navlayout-header demo-header">
+		<div class="u-navlayout-header-row">
+			<ul class="u-navlayout-toolbar u-col-5">
+	          	<li id="toggleMenubar">
+	            	<a id="frame-menubutton" href="#" role="button" class=" waves-effect waves-light waves-round">
+	              		<i data-toggle="show" class="uf uf-reorderoption">
+	                	</i>
+	                	<i data-toggle="left" class="uf uf-anglepointingtoleft hide">
+	                	</i>
+	            	</a>
+	          	</li>
+	          	<li>
+	            	<a class="icon u-topic" data-toggle="collapse" href="#site-navbar-search" role="button">
+	              		<span class="demo-hidden-folded u-color-text-white" style="margin-left: 16px;">iUAP Design</span>
+	            	</a>
+	          	</li>
+	        </ul>
+	        <div class="u-col-6">
+	          	<h3>center-title</h3>
+	        </div>
+            <div class="u-col-1">
+                <span class="right-content">
+                    <i class="icon uf uf-commentblackovalbubbleshape" aria-hidden="true"></i>
+                </span>
+            </div>
+			<div class="u-navlayout-spacer"></div>
+
+
+		</div>
+	</header>
+	<!-- 头部导航 -->
+	<!-- 左侧导航 -->
+	<div id="frame-menubar" class="u-menubar-open u-navlayout-drawer u-navlayout-fixed-header">
+
+	</div>
+	<!-- 左侧导航 -->
+	<div class="u-content">
+
+	</div>
+</div>
+
+<script src="http://design.yyuap.com/static/jquery/jquery-1.11.2.js"></script>
+<script src="http://design.yyuap.com/static/uploader/js/webuploader.js"></script>
+<script src="http://design.yyuap.com/static/knockout/knockout-3.2.0.debug.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-polyfill.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-tree.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-grid.js"></script>
+<script src="http://design.yyuap.com/static/requirejs/require.debug.js"></script>
+<script>
+    var togglebutton = $("#frame-menubutton").find("i");
+    var togglebar = $("#frame-menubar");
+
+
+    togglebutton.unbind().bind("click",function(){
+      togglebar.toggleClass("u-menubar-open");
+      
+      $("main").toggleClass("content-fullScreen");
+      togglebutton.each(function(){
+        
+        if($(this).hasClass("hide")){
+          $(this).removeClass("hide");
+        }else{
+          $(this).addClass("hide");
+        }
+      })
+    })
+</script>
+</body>
+</html>
