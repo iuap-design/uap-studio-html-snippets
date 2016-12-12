@@ -1,5 +1,5 @@
-<!--messageDialog µ÷ÓÃÌáÊ¾Ä£Ì¬¿ò-->
-<button id="msgDialogBtn2" class="u-button raised accent">ÏûÏ¢ÌáÊ¾¿ò</button>
+<!--messageDialog è°ƒç”¨æç¤ºæ¨¡æ€æ¡†-->
+<button id="msgDialogBtn2" class="u-button raised accent">æ¶ˆæ¯æç¤ºæ¡†</button>
 <script type="text/javascript">
     u.compMgr.apply({
         el:'body'
@@ -7,8 +7,8 @@
     var msgBtn2 = document.body.querySelector("#msgDialogBtn2");
     u.on(msgBtn2,'click', function(){
         u.confirmDialog({
-            msg: "ÊÇ·ñ±£´æµ¥¾İ£¿",
-            title: "²âÊÔÈ·ÈÏ",
+            msg: "æ˜¯å¦ä¿å­˜å•æ®ï¼Ÿ",
+            title: "æµ‹è¯•ç¡®è®¤",
             onOk: function () {
                 alert('ok')
             },

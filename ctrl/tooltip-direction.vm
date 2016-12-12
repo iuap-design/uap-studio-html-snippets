@@ -1,10 +1,10 @@
 <!--
-.top:默认向上显示
-.bottom:向下显示
-.left:向左显示
-.right：向右显示
+.top:榛樿鍚戜笂鏄剧ず
+.bottom:鍚戜笅鏄剧ず
+.left:鍚戝乏鏄剧ず
+.right锛氬悜鍙虫樉绀�
 -->
 <div class="tooltip top active" role="tooltip" style="top: 5px;left:5px;">
     <div class="tooltip-arrow"></div>
-    <div class="tooltip-inner">默认向上显示</div>
+    <div class="tooltip-inner">榛樿鍚戜笂鏄剧ず</div>
 </div>

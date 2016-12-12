@@ -1,10 +1,10 @@
 <!--
-.u-switch-primary - Ö÷É«¿ª¹Ø
-.u-switch-success - ÂÌÉ«¿ª¹Ø
-.u-switch-info - À¶É«¿ª¹Ø
-.u-switch-warning - ³ÈÉ«¿ª¹Ø
-.u-switch-danger - ºìÉ«¿ª¹Ø
-.u-switch-dark - »ÒÉ«¿ª¹Ø
+.u-switch-primary - ä¸»è‰²å¼€å…³
+.u-switch-success - ç»¿è‰²å¼€å…³
+.u-switch-info - è“è‰²å¼€å…³
+.u-switch-warning - æ©™è‰²å¼€å…³
+.u-switch-danger - çº¢è‰²å¼€å…³
+.u-switch-dark - ç°è‰²å¼€å…³
 -->
 <label class="u-switch u-switch-warning" for="switch-warning">
     <input type="checkbox" id="switch-warning" class="u-switch-input" checked>

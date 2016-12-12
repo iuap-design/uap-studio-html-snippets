@@ -1,10 +1,10 @@
-<!--нчи╚ё╨.u-button бли╚ё╨.u-button-sucess ╨Ли╚ё╨.u-button-danger Иыи╚ё╨.u-button-warning-->
+<!--Ф≈═Х┴╡О╪ .u-button Г╩©Х┴╡О╪ .u-button-sucess Г╨╒Х┴╡О╪ .u-button-danger Ф╘≤Х┴╡О╪ .u-button-warning-->
 <button class="u-button u-menu-button  u-button-warning " id="demo-menu-lower-right1">
-    а╙╡И
+    Х│■Ф÷╔
     <span class="u-right-icon uf uf-anglearrowdown"></span>
 </button>
-<!--нчи╚ё╨.u-menu бли╚ё╨.u-menu-sucess ╨Ли╚ё╨.u-menu-danger Иыи╚ё╨.u-menu-warning-->
+<!--Ф≈═Х┴╡О╪ .u-menu Г╩©Х┴╡О╪ .u-menu-sucess Г╨╒Х┴╡О╪ .u-menu-danger Ф╘≤Х┴╡О╪ .u-menu-warning-->
 <ul class="u-menu u-menu-bottom-right u-menu-warning" for="demo-menu-lower-right1">
-    <li class="u-menu-item "><a>╠╗╪ш╣╔</a></li>
-    <li class="u-menu-item"><a>╣╫╩У╣╔</a></li>
+    <li class="u-menu-item "><a>Ф┼╔Д╩╥Е█∙</a></li>
+    <li class="u-menu-item"><a>Е┬╟Х╢╖Е█∙</a></li>
 </ul>

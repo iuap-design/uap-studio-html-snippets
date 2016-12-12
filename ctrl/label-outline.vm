@@ -1,10 +1,10 @@
 <!--
-.u-tag-default:Ä¬ÈÏ
-.u-tag-primary:Ö÷É«
-.u-tag-success:ÂÌÉ«
-.u-tag-info:À¶É«
-.u-tag-warning£ºéÙÉ«
-.u-tag-danger:ºìÉ«
-.u-tag-dark£ºÉîÉ«
+.u-tag-default:é»˜è®¤
+.u-tag-primary:ä¸»è‰²
+.u-tag-success:ç»¿è‰²
+.u-tag-info:è“è‰²
+.u-tag-warningï¼šæ©˜è‰²
+.u-tag-danger:çº¢è‰²
+.u-tag-darkï¼šæ·±è‰²
 -->
 <span class="u-tag   u-tag-outline u-tag-default ">Default</span>

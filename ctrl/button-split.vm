@@ -1,14 +1,14 @@
 <div class="u-button-group u-split">
     <button class="u-button u-split-pre">
-        ¥Ú”°
+        ÊâìÂç∞
     </button>
     <div class="u-button-group u-split-sub">
         <button class="u-button u-dropdown-toggle" id="split">
             <span class="uf uf-anglearrowdown"></span>
         </button>
         <ul class="u-menu u-menu-bottom-right" for="split">
-            <li class="u-menu-item"><a>±®º€µ•</a></li>
-            <li class="u-menu-item"><a>µΩªıµ•</a></li>
+            <li class="u-menu-item"><a>Êä•‰ª∑Âçï</a></li>
+            <li class="u-menu-item"><a>Âà∞Ë¥ßÂçï</a></li>
         </ul>
     </div>
 </div>

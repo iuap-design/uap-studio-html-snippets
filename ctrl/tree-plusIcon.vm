@@ -22,7 +22,7 @@
                     onClick: function (e, id, node) {
                         // alert(id)
                         // alert(node)
-                        var rightInfo = node.name + '±»Ñ¡ÖÐ';
+                        var rightInfo = node.name + 'è¢«é€‰ä¸­';
                         u.showMessage({msg: rightInfo, position: "top"})
 
 

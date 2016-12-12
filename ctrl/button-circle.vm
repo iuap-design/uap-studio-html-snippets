@@ -1,4 +1,4 @@
-<!--Ö÷É«: .u-button-primary ¸¨É«£º .u-button-accent éÙÉ«: .u-button-warning ÎÞÉ«£º .u-button -->
+<!--ä¸»è‰²: .u-button-primary è¾…è‰²ï¼š .u-button-accent æ©˜è‰²: .u-button-warning æ— è‰²ï¼š .u-button -->
 <button class="u-button u-button-floating u-button-primary">
     <i class="uf uf-plusblacksymbol"></i>
 </button>

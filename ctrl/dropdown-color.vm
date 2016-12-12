@@ -1,8 +1,8 @@
 <!--
-.u-button-info .u-menu-info:À¶É«
-.u-button-success .u-menu-success:ÂÌÉ«
-.u-button-danger .u-menu-danger:ºìÉ«
-.u-button-warning .u-menu-warning:éÙÉ«
+.u-button-info .u-menu-info:è“è‰²
+.u-button-success .u-menu-success:ç»¿è‰²
+.u-button-danger .u-menu-danger:çº¢è‰²
+.u-button-warning .u-menu-warning:æ©˜è‰²
 -->
 <button class="u-button  u-button-info u-menu-button" id="demo-menu-info">
     info

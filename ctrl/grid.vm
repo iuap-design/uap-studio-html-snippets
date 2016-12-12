@@ -1,0 +1,8 @@
+<div type="text" u-meta='{"id":"$Component.id","data":"$Model.id","type":"grid","editable":true,"multiSelect":true}'>
+#foreach($field in $Attributes)
+	<div
+		options='{"field":"$field.getId()","dataType":"$field.getDatatype()","title":"$field.getName()","editType":"$field.getEdittype()","editable":$field.isEditable()}'></div>
+#end
+</div>
+
+

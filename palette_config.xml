@@ -1,148 +1,332 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PaletteGroups isDefaultOpenCodeModule="true" isShowBasicModuleName="true">
-    <PaletteGroup groupId="layout" initialState="INITIAL_STATE_CLOSED" name="布局" smallIcon="icons/">
-        <largeIcon></largeIcon>
-        <PaletteItem largeIcon="icons/" name="栅格" smallIcon="icons/" templateId="gridLayout" version = "3.1.0">
+<PaletteGroups isDefaultOpenCodeModule="true"
+	isShowBasicModuleName="true">
+	<PaletteGroup groupId="layout" initialState="INITIAL_STATE_CLOSED"
+		name="布局" smallIcon="icons/">
+		<largeIcon></largeIcon>
+		<PaletteItem largeIcon="icons/" name="基本页面框架布局" smallIcon="icons/"
+			templateId="basicPageLayout" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>basicPage-layout.html</preview>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="悬浮页面框架布局" smallIcon="icons/"
+			templateId="suspension-layout" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>suspension-layout.html</preview>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="可伸缩菜单布局" smallIcon="icons/"
+			templateId="shrinkLayout" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>shrink-layout.html</preview>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="顶部菜单布局" smallIcon="icons/"
+			templateId="topNav-layout" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>topNav-layout.html</preview>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="卡片式布局" smallIcon="icons/"
+			templateId="cardLayout" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>card-layout.html</preview>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="栅格布局" smallIcon="icons/layout1.png"
+			templateId="gridLayout" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>grid-layout.html</preview>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="滑屏" smallIcon="icons/layout2.png"
+			templateId="mdLayout" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="面板" smallIcon="icons/"
+			templateId="widget-layout" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>widget-layout.html</preview>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="导航布局" smallIcon="icons/"
+			templateId="navbarLayout" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>nav-layout.html</preview>
+		</PaletteItem>
+	</PaletteGroup>
+	<PaletteGroup groupId="ctrl" initialState="INITIAL_STATE_OPEN"
+		name="控件" smallIcon="icons/">
+		<largeIcon></largeIcon>
+		<PaletteItem largeIcon="icons/" name="按钮" smallIcon="icons/component1.png"
+			templateId="button" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>button.html</preview>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="default,u-button-block,u-button-border,u-button-circle,u-button-color,u-button-menu,u-button-redius,u-button-size,u-button-split"
+					value="button-basic.vm,button-block.vm,button-border.vm,button-circle.vm,button-color.vm,button-menu.vm,button-radius.vm,button-size.vm,button-split.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="分页" smallIcon="icons/component2.png"
+			templateId="pagination" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="pagination-center,pagination-gap,pagination-noborder,pagination-right,pagination-size"
+					value="pagination-center.vm,pagination-gap.vm,pagination-noborder.vm,pagination-right.vm,pagination-size.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="单选框" smallIcon="icons/component3.png"
+			templateId="radio" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>radio.html</preview>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="radio-disabled,radio-disabled-checked,radio-notchecked"
+					value="radio-disabled.vm,radio-disabled-checked.vm,radio-notchecked.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="复选框" smallIcon="icons/component4.png"
+			templateId="checkbox" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>checkbox.html</preview>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="default,checkbox-color" value="checkbox.vm,checkbox-color.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="开关" smallIcon="icons/component5.png"
+			templateId="switch" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>switch.html</preview>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="switch-checked,switch-disabled,switch-checked-disabled,switch-color"
+					value="switch-checked.vm,switch-disabled.vm,switch-checked-disabled.vm,switch-color.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="标签" smallIcon="icons/component6.png"
+			templateId="label" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="default,label-outline,label-round,label-size" value="label.vm,label-outline.vm,label-round.vm,label-size"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="表格" smallIcon="icons/component7.png"
+			templateId="datatable" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="datatable-base,datatable-border,datatable-hover,datatable-striped"
+					value="datatable-base.vm,datatable-border.vm,datatable-hover.vm,datatable-striped.vm"></property>
+				<property id="separator" type = "separator"></property>
+				<property id="row" name="行数" type="text"></property>
+				<property id="column" name="列数" type="text"></property>
+			</properties>
+		</PaletteItem>
+		 <PaletteItem largeIcon="icons/" name="数据表格" smallIcon="icons/component9.png" templateId="grid">
             <pluginId></pluginId>
-            <showDialog>false</showDialog>
+            <showDialog>true</showDialog>
         </PaletteItem>
-       <PaletteItem largeIcon="icons/" name="滑屏" smallIcon="icons/" templateId="mdLayout" version = "3.1.0">
+        <PaletteItem largeIcon="icons/" name="数据表单" smallIcon="icons/component10.png" templateId="form">
             <pluginId></pluginId>
-            <showDialog>false</showDialog>
+            <showDialog>true</showDialog>
         </PaletteItem>
-       <PaletteItem largeIcon="icons/" name="导航条" smallIcon="icons/" templateId="navbarLayout" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-    </PaletteGroup>
-    <PaletteGroup groupId="ctrl" initialState="INITIAL_STATE_OPEN" name="控件" smallIcon="icons/" version = "3.1.0">
-        <largeIcon></largeIcon>
-        <PaletteItem largeIcon="icons/" name="按钮" smallIcon="icons/" templateId="button" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="分页" smallIcon="icons/" templateId="pagination" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="单选框" smallIcon="icons/" templateId="radio" version = "3.1.0">
-        <pluginId></pluginId>
-        <showDialog>false</showDialog>
-        <PaletteItem largeIcon="icons/" name="复选框" smallIcon="icons/" templateId="checkbox" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="开关" smallIcon="icons/" templateId="switch" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="标签" smallIcon="icons/" templateId="label" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="表格" smallIcon="icons/" templateId="datatable" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="图片" smallIcon="icons/" templateId="image" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="徽章" smallIcon="icons/" templateId="badge" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="提示消息" smallIcon="icons/" templateId="message" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="页签" smallIcon="icons/" templateId="tabs" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="提示" smallIcon="icons/" templateId="tooltip" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="面包屑" smallIcon="icons/" templateId="breadcrumb" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="进度条" smallIcon="icons/" templateId="progress" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="面板" smallIcon="icons/" templateId="panel" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="流程" smallIcon="icons/" templateId="pearls" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="模态框" smallIcon="icons/" templateId="modal" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="评分" smallIcon="icons/" templateId="rating" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="下拉菜单" smallIcon="icons/" templateId="dropdown" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="按钮组" smallIcon="icons/" templateId="buttongroup" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="输入框组" smallIcon="icons/" templateId="inputgroup" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="缩略图" smallIcon="icons/" templateId="thumbnail" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="表盘选择" smallIcon="icons/" templateId="clockpicker" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="日期" smallIcon="icons/" templateId="date" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="月份选择" smallIcon="icons/" templateId="month" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="时分秒" smallIcon="icons/" templateId="time" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="年份选择" smallIcon="icons/" templateId="year" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="年月选择" smallIcon="icons/" templateId="yearmonth" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="loading" smallIcon="icons/" templateId="loading" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="下拉框" smallIcon="icons/" templateId="combobox" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="隐藏菜单" smallIcon="icons/" templateId="menu" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-        <PaletteItem largeIcon="icons/" name="树" smallIcon="icons/" templateId="tree" version = "3.1.0">
-            <pluginId></pluginId>
-            <showDialog>false</showDialog>
-        </PaletteItem>
-    </PaletteGroup>
+		<PaletteItem largeIcon="icons/" name="图片" smallIcon="icons/component11.png"
+			templateId="image" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="image-border,image-circle" value="image-border.vm,image-circle.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="徽章" smallIcon="icons/component12.png"
+			templateId="badge" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum" key="default,badge-color"
+					value="badge.vm,badge-color.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="提示消息" smallIcon="icons/component13.png"
+			templateId="message" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum" key="default,message-dark"
+					value="message.vm,message-dark.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="页签" smallIcon="icons/component14.png"
+			templateId="tabs" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum" key="default,tabs-pill"
+					value="tabs.vm,tabs-pill.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="提示" smallIcon="icons/component15.png"
+			templateId="tooltip" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="tooltip-color,tooltip-direction" value="tooltip-color.vm,tooltip-direction.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="面包屑" smallIcon="icons/component16.png"
+			templateId="breadcrumb" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="default,breadcrumb-arrow" value="breadcrumb.vm,breadcrumb-arrow.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="进度条" smallIcon="icons/component17.png"
+			templateId="progress" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="default,progress-buffer,progress-indeterminate" value="progress.vm,progress-buffer.vm,progress-indeterminate.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="面板" smallIcon="icons/component18.png"
+			templateId="panel" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="panel-body,panel-footer,panel-head-footer" value="panel-body.vm,panel-footer.vm,panel-head-footer.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="流程" smallIcon="icons/component19.png"
+			templateId="pearls" versions="3.1.1">
+			<pluginId></pluginId>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="模态框" smallIcon="icons/component20.png"
+			templateId="modal" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="modal-confirmDialog,modal-custom" value="modal-confirmDialog.vm,modal-custom.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="评分" smallIcon="icons/component21.png"
+			templateId="rating" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="下拉菜单" smallIcon="icons/"
+			templateId="dropdown" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="dropdown-basic,dropdown-color,dropdown-position" value="dropdown-basic.vm,dropdown-color.vm,dropdown-position.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="按钮组" smallIcon="icons/"
+			templateId="buttongroup" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="buttongroup-basic,buttongroup-size" value="buttongroup-basic.vm,buttongroup-size.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="输入框组" smallIcon="icons/"
+			templateId="inputgroup" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum"
+					key="inputgroup-button,inputgroup-button-split,inputgroup-checkbox,inputgroup-radio,inputgroup-size"
+					value="inputgroup-button.vm,inputgroup-button-split.vm,inputgroup-checkbox.vm,inputgroup-radio.vm,inputgroup-size.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="缩略图" smallIcon="icons/"
+			templateId="thumbnail" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="表盘选择" smallIcon="icons/"
+			templateId="clockpicker" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="日期" smallIcon="icons/"
+			templateId="date" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="月份选择" smallIcon="icons/"
+			templateId="month" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="时分秒" smallIcon="icons/"
+			templateId="time" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="年份选择" smallIcon="icons/"
+			templateId="year" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="年月选择" smallIcon="icons/"
+			templateId="yearmonth" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="月日选择" smallIcon="icons/"
+			templateId="monthdate" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="loading" smallIcon="icons/"
+			templateId="loading" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="下拉框" smallIcon="icons/"
+			templateId="combobox" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum" key="combobox-default" value="combobox-default.vm"></property>
+			</properties>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="隐藏菜单" smallIcon="icons/"
+			templateId="menu" versions="3.1.1">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+		</PaletteItem>
+		<PaletteItem largeIcon="icons/" name="树" smallIcon="icons/"
+			templateId="tree" versions="3.1.5">
+			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<properties>
+				<property id="style" name="样式" type="enum" key="tree-bageIcon,tree-expIcon,tree-markIcon,tree-plusIcon,tree-searchIcon" value="tree-bageIcon.vm,tree-expIcon.vm,tree-markIcon.vm,tree-plusIcon.vm,tree-searchIcon.vm"></property>
+			</properties>
+		</PaletteItem>
+	</PaletteGroup>
 </PaletteGroups>

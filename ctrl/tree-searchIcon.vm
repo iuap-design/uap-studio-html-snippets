@@ -38,7 +38,7 @@
                  onClick: function (e, id, node) {
                      // alert(id)
                      // alert(node)
-                     var rightInfo = node.name + '±»Ñ¡ÖĞ';
+                     var rightInfo = node.name + 'è¢«é€‰ä¸­';
                      u.showMessage({msg: rightInfo, position: "top"})
 
 
@@ -112,7 +112,7 @@
      viewModel.dataTable.setData(data);
      Searching = document.querySelector('#SearchTreeNode');
      /*
-      ÊµÊ±¹ıÂË½Úµã
+      å®æ—¶è¿‡æ»¤èŠ‚ç‚¹
       */
      u.on(Searching, "keyup", function () {
 
@@ -120,24 +120,24 @@
          if (searchkey !== "") {
              console.log(searchkey);
 
-             // ¶¨Òå¹ıÂËÌõ¼ş
+             // å®šä¹‰è¿‡æ»¤æ¡ä»¶
              var filter = function (node) {
                  return node.name.indexOf(searchkey) > -1;
              }
-             // ¹ıÂË³ö½Úµã
+             // è¿‡æ»¤å‡ºèŠ‚ç‚¹
              var nodes = $("#tree6")[0]['u-meta'].tree.getNodesByFilter(filter);
 
-             // Ã»ÓĞÆ¥Åä£¬È¥µô±»ËÑË÷×´Ì¬
+             // æ²¡æœ‰åŒ¹é…ï¼Œå»æ‰è¢«æœç´¢çŠ¶æ€
              if (nodes.length === 0) {
                  $(".selected").removeClass("seached");
              }
-             // Ñ­»·Æ¥Åä½Úµã Õ¹¿ª¸¸½Úµã²¢Ìí¼ÓËÑË÷×´Ì¬
+             // å¾ªç¯åŒ¹é…èŠ‚ç‚¹ å±•å¼€çˆ¶èŠ‚ç‚¹å¹¶æ·»åŠ æœç´¢çŠ¶æ€
              for (var n = 0; n < nodes.length; n++) {
                  $("#tree6")[0]['u-meta'].tree.expandNode(nodes[n].getParentNode(), true, true, true);
                  $("#" + nodes[n].tId).addClass("seached")
              }
          } else {
-             // searchkeyÎª¿Õ ÔòÈ¥µô±»ËÑË÷×´Ì¬
+             // searchkeyä¸ºç©º åˆ™å»æ‰è¢«æœç´¢çŠ¶æ€
              $(".selected").removeClass("seached");
          }
 

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Title</title>
+<link rel="stylesheet" href="http://design.yyuap.com/static/uploader/css/webuploader.css">
+<link rel="stylesheet" href="http://design.yyuap.com/static/uui/latest/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/u.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/tree.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/grid.css">
+<style id="demo-style" media="screen">
+.u-checkbox-labelauty {
+    width: auto;
+    height: 32px;
+    padding: 2px 8px;
+    border: solid 1px #ccc;
+}
+
+.u-checkbox-labelauty:hover {
+    border: solid 2px #e4393c;
+    padding: 1px 7px;
+    color: #e4393c;
+}
+
+.u-checkbox-labelauty.u-checkbox.is-upgraded {
+    padding-left: 8px;
+}
+
+.u-checkbox-labelauty:hover.u-checkbox.is-upgraded, .u-checkbox-labelauty.is-upgraded.is-checked {
+    padding-left: 7px;
+}
+
+.u-checkbox-labelauty.is-checked {
+    border: solid 2px #e4393c;
+    padding: 1px 7px;
+}
+
+.u-checkbox-labelauty .u-checkbox-label {
+    display: inline-block;
+}
+
+.u-checkbox-labelauty .u-checkbox-outline {
+    display: none;
+}
+
+.u-checkbox-labelauty.is-checked:before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    content: ' ';
+    border-left: 12px solid transparent;
+    border-bottom: 12px solid #e4393c;
+}
+
+.u-checkbox-labelauty.is-checked:after {
+    -webkit-transform: rotate(45deg) scale(.8);
+    transform: rotate(45deg) scale(.8);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: table;
+    width: 5px;
+    height: 8px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    content: ' ';
+    -webkit-transition: all .2s cubic-bezier(.12,.4,.29,1.46) .1s;
+    transition: all .2s cubic-bezier(.12,.4,.29,1.46) .1s;
+}
+</style>
+</head>
+<body style="background-color: #eceff1;margin-left: 20px;width: calc(100% - 20px );">
+<div class="u-container-fluid u-widget-bg">
+    <div class="u-row">
+        <div class="u-col-md-12">
+            <div class="u-widget  u-widget-right">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">checkbox基本使用</h3>
+                </div>
+                <div class="u-widget-body">
+                    <p>已选checkbox</p>
+                    <label class="u-checkbox w-64">
+                        <input type="checkbox" class="u-checkbox-input" checked>
+                        <span class="u-checkbox-label">Checkbox</span>
+                    </label>
+                    <p>未选checkbox</p>
+                    <label class="u-checkbox w-64">
+                        <input type="checkbox" class="u-checkbox-input">
+                        <span class="u-checkbox-label">Checkbox</span>
+                    </label>
+                    <p>不可用未选checkbox</p>
+                    <label class="u-checkbox w-64">
+                        <input type="checkbox" class="u-checkbox-input" disabled>
+                        <span class="u-checkbox-label">Checkbox</span>
+                    </label>
+                    <p>不可用已选checkbox</p>
+                    <label class="u-checkbox w-64">
+                        <input type="checkbox" class="u-checkbox-input" disabled checked>
+                        <span class="u-checkbox-label">Checkbox</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="u-row">
+        <div class="u-col-md-12">
+            <div class="u-widget  u-widget-right">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">不同色彩的checkbox</h3>
+                </div>
+                <div class="u-widget-body">
+                    <label class="u-checkbox u-checkbox-success w-64">
+                        <input type="checkbox" class="u-checkbox-input" checked>
+                        <span class="u-checkbox-label">green</span>
+                    </label>
+                    <label class="u-checkbox u-checkbox-info w-64">
+                        <input type="checkbox" class="u-checkbox-input" checked>
+                        <span class="u-checkbox-label">blue</span>
+                    </label>
+                    <label class="u-checkbox u-checkbox-warning w-64">
+                        <input type="checkbox" class="u-checkbox-input" checked>
+                        <span class="u-checkbox-label">yellow</span>
+                    </label>
+                    <label class="u-checkbox u-checkbox-danger w-64">
+                        <input type="checkbox" class="u-checkbox-input" checked>
+                        <span class="u-checkbox-label">red</span>
+                    </label>
+                    <label class="u-checkbox u-checkbox-dark w-64">
+                        <input type="checkbox" class="u-checkbox-input" checked>
+                        <span class="u-checkbox-label">grey</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="u-row">
+        <div class="u-col-md-12">
+            <div class="u-widget  u-widget-right">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">图片checkbox</h3>
+                </div>
+                <div class="u-widget-body">
+                    <label class="u-checkbox w-64">
+                        <input type="checkbox" class="u-checkbox-input" checked>
+                        <span class="u-checkbox-label"><img src="/assets/static/img/website/checkbox/checkbox-1.png" height="30" width="30"></span>
+                    </label>
+                    <label class="u-checkbox w-64">
+                        <input type="checkbox" class="u-checkbox-input">
+                        <span class="u-checkbox-label"><img src="/assets/static/img/website/checkbox/checkbox-2.png" height="30" width="30"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="u-row">
+        <div class="u-col-md-12">
+            <div class="u-widget  u-widget-right">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">个性checkbox</h3>
+                </div>
+                <div class="u-widget-body">
+                    <label class="u-checkbox u-checkbox-labelauty">
+                        <input type="checkbox" class="u-checkbox-input" checked>
+                        <span class="u-checkbox-label">30天免息</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://design.yyuap.com/static/jquery/jquery-1.11.2.js"></script>
+<script src="http://design.yyuap.com/static/uploader/js/webuploader.js"></script>
+<script src="http://design.yyuap.com/static/knockout/knockout-3.2.0.debug.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-polyfill.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-tree.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-grid.js"></script>
+<script src="http://design.yyuap.com/static/requirejs/require.debug.js"></script>
+<script>
+
+</script>
+</body>
+</html>

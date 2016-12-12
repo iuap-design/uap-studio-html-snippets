@@ -1,8 +1,8 @@
 <!--
-.u-button-group-xg - ÌØ´ó³ß´ç
-.u-button-group-lg - ´ó³ß´ç
-.u-button-group-xs - Ð¡³ß´ç
-²»Ìí¼ÓÑùÊ½´ú±íÄ¬ÈÏ³ß´ç
+.u-button-group-xg - ç‰¹å¤§å°ºå¯¸
+.u-button-group-lg - å¤§å°ºå¯¸
+.u-button-group-xs - å°å°ºå¯¸
+ä¸æ·»åŠ æ ·å¼ä»£è¡¨é»˜è®¤å°ºå¯¸
 -->
 <div class="u-button-group u-button-group-xg">
     <button class="u-button raised u-button-border default">BUTTON</button>

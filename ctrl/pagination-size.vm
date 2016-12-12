@@ -1,14 +1,14 @@
-    <!--ĞèÒªÌîĞ´: data ¡¢ pageChange¡¢ sizeChange ÊôĞÔ-->
-    <!--´ó³ß´ç£º.pagination-lg Ä¬ÈÏ³ß´ç:.u-pagination Ğ¡³ß´ç£º.pagination-sm-->
+    <!--éœ€è¦å¡«å†™: data ã€ pageChangeã€ sizeChange å±æ€§-->
+    <!--å¤§å°ºå¯¸ï¼š.pagination-lg é»˜è®¤å°ºå¯¸:.u-pagination å°å°ºå¯¸ï¼š.pagination-sm-->
     <div id='pagination' class='u-pagination pagination-lg'></div>
     <script type="text/javascript">
         var element = document.getElementById("pagination");
         var comp = new u.pagination({ el: element,showState:false });
         comp.update({ totalPages: 100, pageSize: 20, currentPage: 1, totalCount: 200 });
         comp.on('pageChange', function(pageIndex) {
-            console.log('ĞÂµÄÒ³ºÅÎª' + pageIndex);
+            console.log('æ–°çš„é¡µå·ä¸º' + pageIndex);
         });
         comp.on('sizeChange', function(arg) {
-            console.log('Ã¿Ò³ÏÔÊ¾ÌõÊıÎª' + arg[0]);
+            console.log('æ¯é¡µæ˜¾ç¤ºæ¡æ•°ä¸º' + arg[0]);
         });
     </script>

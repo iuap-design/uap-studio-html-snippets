@@ -1,4 +1,4 @@
-<!--ĞèÒªÌîĞ´: data ¡¢ pageChange¡¢ sizeChange ÊôĞÔ-->
+<!--éœ€è¦å¡«å†™: data ã€ pageChangeã€ sizeChange å±æ€§-->
 <div class=" pagination-center" style="text-align: center;">
     <div id='pagination-center' class='u-pagination pagination-center' style="display: inline-block!important;">
     </div>
@@ -8,9 +8,9 @@
     var comp = new u.pagination({el: element, showState: false});
     comp.update({totalPages: 100, pageSize: 20, currentPage: 1, totalCount: 200});
     comp.on('pageChange', function (pageIndex) {
-        console.log('ĞÂµÄÒ³ºÅÎª' + pageIndex);
+        console.log('æ–°çš„é¡µå·ä¸º' + pageIndex);
     });
     comp.on('sizeChange', function (arg) {
-        console.log('Ã¿Ò³ÏÔÊ¾ÌõÊıÎª' + arg[0]);
+        console.log('æ¯é¡µæ˜¾ç¤ºæ¡æ•°ä¸º' + arg[0]);
     });
 </script>

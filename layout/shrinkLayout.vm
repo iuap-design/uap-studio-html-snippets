@@ -42,7 +42,7 @@ header {
 }
 
 
-/*×ó²àmenu*/
+/*å·¦ä¾§menu*/
 
 .page-sidebar {
     z-index: 100;
@@ -158,59 +158,59 @@ ul.nav-menu {
     </header>
     <div class="page-sidebar">
         <div class="log">
-            <span title="ÔËÎ¬Æ½Ì¨" class="title">
-               ÔËÎ¬Æ½Ì¨
+            <span title="è¿ç»´å¹³å°" class="title">
+               è¿ç»´å¹³å°
             </span>
         </div>
         <ul class="nav-menu">
             <li class="nav-li">
                 <a href="/">
                     <i class="uf uf-tablegrid"></i>
-                    <span class="nav-title">×ÜÀÀ</span>
+                    <span class="nav-title">æ€»è§ˆ</span>
                 </a>
             </li>
             <!-- container -->
             <li class='nav-li'>
                 <a>
                     <i class=" uf uf-tablegrid"></i>
-                    <span class="nav-title">ÈİÆ÷·şÎñ</span>
+                    <span class="nav-title">å®¹å™¨æœåŠ¡</span>
                 </a>
             </li>
             <li class='nav-li'>
                 <a>
                     <i class=" uf uf-tablegrid"></i>
-                    <span class="nav-title">´úÂë¹¹½¨</span>
+                    <span class="nav-title">ä»£ç æ„å»º</span>
                 </a>
             </li>
             <li class='nav-li'>
                 <a>
                     <i class=" uf uf-tablegrid"></i>
-                    <span class="nav-title">¾µÏñ²Ö¿â</span>
+                    <span class="nav-title">é•œåƒä»“åº“</span>
                 </a>
             </li>
             <li class="nav-li">
                 <a>
                     <i class=" uf uf-tablegrid"></i>
-                    <span class="nav-title">·şÎñ±àÅÅ</span>
+                    <span class="nav-title">æœåŠ¡ç¼–æ’</span>
                 </a>
             </li>
             <li class='nav-li'>
                 <a>
                     <i class=" uf uf-tablegrid"></i>
-                    <span class="nav-title">Ë½ÓĞ¼¯Èº</span>
+                    <span class="nav-title">ç§æœ‰é›†ç¾¤</span>
                 </a>
             </li>
             <li class="nav-li">
                 <a id="nav_accelerator">
                     <i class=" uf uf-tablegrid"></i>
-                    <span class="nav-title">Ãâ·Ñ¼ÓËÙÆ÷</span>
+                    <span class="nav-title">å…è´¹åŠ é€Ÿå™¨</span>
                 </a>
             </li>
         </ul>
     </div>
     <div class="page-small-sidebar" style="margin-left:-55px">
         <div class="log">
-            <a title="Ê±ËÙÔÆ">
+            <a title="æ—¶é€Ÿäº‘">
                 <img src="/assets/static/img/website/logo-icon.svg" class="samll-logo">
             </a>
         </div>
@@ -253,7 +253,7 @@ ul.nav-menu {
         </ul>
     </div>
     <div class="page-container" style="margin-left: 200px;padding-top: 100px">
-        ÄÚÈİÇø
+        å†…å®¹åŒº
     </div>
 </div>
 

@@ -1,4 +1,4 @@
-<!--ÂÌÉ«£º.u-checkbox-sucess À¶É«£º.u-checkbox-info éÙÉ«£º.u-checkbox-warning ºìÉ«£º.u-checkbox-danger Éî»Ò£º.u-checkbox-dark-->
+<!--ç»¿è‰²ï¼š.u-checkbox-sucess è“è‰²ï¼š.u-checkbox-info æ©˜è‰²ï¼š.u-checkbox-warning çº¢è‰²ï¼š.u-checkbox-danger æ·±ç°ï¼š.u-checkbox-dark-->
 <label  class="u-checkbox u-checkbox-success w-xs">
     <input type="checkbox" class="u-checkbox-input"  checked>
     <span class="u-checkbox-label">green</span>

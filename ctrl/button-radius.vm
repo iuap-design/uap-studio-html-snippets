@@ -1,4 +1,4 @@
-<!--Ô²½Ç£ºu-button-round Ö±½Ç u-button-squared-->
-<!--×ó°ëÔ²£ºu-button-pill-leftºÍu-button-round  ÓÒ°ëÔ²£º .u-button-pill-right ºÍ .u-button-round-->
-<button class="u-button u-button-primary u-button-round">Ô²ÐÎ°´Å¥
+<!--åœ†è§’ï¼šu-button-round ç›´è§’ u-button-squared-->
+<!--å·¦åŠåœ†ï¼šu-button-pill-leftå’Œu-button-round  å³åŠåœ†ï¼š .u-button-pill-right å’Œ .u-button-round-->
+<button class="u-button u-button-primary u-button-round">åœ†å½¢æŒ‰é’®
 </button>

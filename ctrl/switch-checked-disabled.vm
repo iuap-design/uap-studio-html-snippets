@@ -1,4 +1,4 @@
-<!--ÓÃÓÚÁ½ÖÖ×´Ì¬µÄÇÐ»»,inputµÄidÓëlabelµÄforÊôÐÔÖµ±£³ÖÒ»ÖÂ-->
+<!--ç”¨äºŽä¸¤ç§çŠ¶æ€çš„åˆ‡æ¢,inputçš„idä¸Žlabelçš„forå±žæ€§å€¼ä¿æŒä¸€è‡´-->
 <label class="u-switch u-switch-info" for="switch-info-checkdisalbed">
     <input type="checkbox" id="switch-info-checkdisalbed" class="u-switch-input" checked disabled>
     <span class="u-switch-label"></span>

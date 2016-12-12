@@ -1,0 +1,16 @@
+<table class="u-table" style="width:100%;">
+	<thead>
+		<tr>
+		#foreach($field in $Attributes)
+			<th>$field.getName()</th>
+		#end
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+		#foreach($field in $Attributes)
+			<td data-bind="text:$Model.getId()['ref']('$field.getId()')"></td>
+		#end		
+		</tr>
+	</tbody>
+</table>				

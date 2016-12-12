@@ -128,7 +128,7 @@
 </style>
 
 <div class="u-frame-navlayout u-navlayout-fixed-drawer u-navlayout-fixed-header">
-	<!-- Í·²¿µ¼º½ -->
+	<!-- å¤´éƒ¨å¯¼èˆª -->
 	<header class="u-navlayout-header demo-header">
 		<div class="u-navlayout-header-row">
 			<ul class="u-navlayout-toolbar u-col-5">
@@ -159,12 +159,12 @@
 
 		</div>
 	</header>
-	<!-- Í·²¿µ¼º½ -->
-	<!-- ×ó²àµ¼º½ -->
+	<!-- å¤´éƒ¨å¯¼èˆª -->
+	<!-- å·¦ä¾§å¯¼èˆª -->
 	<div id="frame-menubar" class="u-menubar-open u-navlayout-drawer u-navlayout-fixed-header">
 
 	</div>
-	<!-- ×ó²àµ¼º½ -->
+	<!-- å·¦ä¾§å¯¼èˆª -->
 	<div class="u-content">
 
 	</div>

@@ -1,10 +1,10 @@
 <!--
-.u-badge-primary£ºÖ÷É«¡¢
-.u-badge-success:ÂÌÉ«
-.u-badge-info:À¶É«
-.u-badge-warning:éÙÉ«
-.u-badge-danger:ºìÉ«
-.u-badge-dark:ÉîÉ«
+.u-badge-primaryï¼šä¸»è‰²ã€
+.u-badge-success:ç»¿è‰²
+.u-badge-info:è“è‰²
+.u-badge-warning:æ©˜è‰²
+.u-badge-danger:çº¢è‰²
+.u-badge-dark:æ·±è‰²
 -->
 <label class="u-badge u-badge-primary" data-badge="1">
 </label>

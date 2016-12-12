@@ -30,7 +30,7 @@
                 onClick:function(e,id,node){
                     // alert(id)
                     // alert(node)
-                    var rightInfo = node.name + '被选中';
+                    var rightInfo = node.name + '琚�変腑';
                     u.showMessage({msg:rightInfo,position:"top"})
 
 
@@ -108,13 +108,13 @@
     Searching = document.querySelector('#SearchTreeNode');
 
     /*
-     展开全部节点
+     灞曞紑鍏ㄩ儴鑺傜偣
      */
     u.on(Expanding, "click",function(){
         $("#tree5")[0]['u-meta'].tree.expandAll(true);
     });
     /*
-     合上全部节点
+     鍚堜笂鍏ㄩ儴鑺傜偣
      */
     u.on(Collapsing, "click",function(){
 

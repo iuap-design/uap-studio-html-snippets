@@ -1,0 +1,138 @@
+<div class="u-container-fluid">
+  <div class="u-row">
+    #foreach($field in $Attributes)
+      #if($field.edittype == "String")
+        <div class="u-col-1 u-col-sm-4">
+          <label class="u-input-label right">$field.name:</label>
+        </div>
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <input type="text" class="u-form-control" placeholder="$field.name" u-meta='{"type":"string","data":"$Model.getId()","field":"$field.getId()"}'>
+        </div>
+      #end 
+      #if($field.edittype == "Float")
+        <div class="u-col-1 u-col-sm-4">
+          <label class="u-input-label right">$field.name:</label>
+        </div>
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <input type="text" class="u-form-control" placeholder="$field.name" u-meta='{"type":"float","data":"$Model.getId()","field":"$field.getId()"}'>
+        </div>
+      #end   
+      #if($field.edittype == "Integer")
+        <div class="u-col-1 u-col-sm-4">
+          <label class="u-input-label right">$field.name:</label>
+        </div>
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <input type="text" class="u-form-control" placeholder="$field.name" u-meta='{"type":"integer","data":"$Model.getId()","field":"$field.getId()"}'>
+        </div>
+      #end   
+      #if($field.edittype == "Year")
+        <div class="u-col-1 u-col-sm-4">
+          <label class="u-input-label right">$field.name:</label>
+        </div>
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <div class="u-input-group u-has-feedback" u-meta='{"type":"u-year","data":"$Model.getId()","field":"$field.getId()"}'>
+              <input type="text" class="u-form-control"/>
+              <span class="u-form-control-feedback fa fa-calendar" data-role="date-button"></span>
+          </div>
+        </div>
+      #end   
+      #if($field.edittype == "Month")
+        <div class="u-col-1 u-col-sm-4">
+          <label class="u-input-label right">$field.name:</label>
+        </div>
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <div class="u-input-group u-has-feedback" u-meta='{"type":"u-month","data":"$Model.getId()","field":"$field.getId()"}'>
+              <input type="text" class="u-form-control"/>
+              <span class="u-form-control-feedback fa fa-calendar" data-role="date-button"></span>
+          </div>
+        </div>
+      #end 
+      #if($field.edittype == "YearMonth")
+        <div class="u-col-1 u-col-sm-4">
+          <label class="u-input-label right">$field.name:</label>
+        </div>
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <div class="u-input-group u-has-feedback" u-meta='{"type":"u-yearmonth","data":"$Model.getId()","field":"$field.getId()"}'>
+              <input type="text" class="u-form-control"/>
+              <span class="u-form-control-feedback fa fa-calendar" data-role="date-button"></span>
+          </div>
+        </div>
+      #end      
+      #if($field.edittype == "Date")
+        <div class="u-col-1 u-col-sm-4">
+          <label class="u-input-label right">$field.name:</label>
+        </div>
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <div class="u-input-group u-has-feedback" u-meta='{"type":"u-date","data":"$Model.getId()","field":"$field.getId()"}'>
+              <input type="text" class="u-form-control"/>
+              <span class="u-form-control-feedback fa fa-calendar" data-role="date-button"></span>
+          </div>
+        </div>
+      #end 
+      #if($field.edittype == "DateTime")
+        <div class="u-col-1 u-col-sm-4">
+          <label class="u-input-label right">$field.name:</label>
+        </div>
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <div class="u-input-group u-has-feedback" u-meta='{"type":"u-datetime","data":"$Model.getId()","field":"$field.getId()"}'>
+              <input type="text" class="u-form-control"/>
+              <span class="u-form-control-feedback fa fa-calendar" data-role="date-button"></span>
+          </div>
+        </div>
+      #end 
+      #if($field.edittype == "Combo")
+        <div class="u-col-1 u-col-sm-4">
+          <label class="u-input-label right">$field.name:</label>
+        </div>
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <div class="u-input-group u-has-feedback" u-meta='{"type":"u-combobox","data":"$Model.getId()","field":"$field.getId()"}'>
+              <input type="text" class="u-form-control"/>
+              <span class="u-form-control-feedback fa fa-angle-down" data-role="date-button"></span>
+          </div>
+        </div>
+      #end       
+      #if($field.edittype == "TextArea")
+        <div class="u-col-1 u-col-sm-4">
+          <label class="u-input-label right">$field.name:</label>
+        </div>
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <textarea class="u-form-control" u-meta='{type":"textarea","data":"$Model.getId()","field":"$field.getId()"}'></textarea>
+        </div>
+      #end   
+      #if($field.edittype == "Checkbox")
+        <div class="u-col-1 u-col-sm-4">
+        </div>      
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <label class="u-checkbox"
+                 u-meta='{"type":"u-checkbox","isGroup":false,"data":"$Model.getId()","field":"$field.getId()","checkedValue":"1","unCheckedValue":"0"}'>
+              <input type="checkbox" class="u-checkbox-input">
+              <span class="u-checkbox-label">$field.name</span>
+          </label>
+        </div>
+      #end     
+      #if($field.edittype == "Switch")
+        <div class="u-col-1 u-col-sm-4">
+        </div>      
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <label class="u-switch"
+                 u-meta='{"type":"u-switch","data":"$Model.getId()","field":"$field.getId()","checkedValue":"1","unCheckedValue":"0"}'>
+              <input type="checkbox" class="u-checkbox-input">
+              <span class="u-checkbox-label">$field.name</span>
+          </label>
+        </div>
+      #end        
+      #if($field.edittype == "Radio")
+        <div class="u-col-1 u-col-sm-4">
+        </div>      
+        <div class="u-col-3 u-col-sm-8 m-b-md">
+          <div u-meta='{"type":"u-radio","data":"$Model.getId()","field":"$field.getId()","datasource":""}'>
+              <label  class="u-radio" >
+                  <input type="radio" class="u-radio-button" name="options">
+                  <span class="u-radio-label"></span>
+              </label>
+          </div>
+        </div>
+      #end                                 
+    #end
+  </div>
+</div>

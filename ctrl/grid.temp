@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<Component id="grid" name="表格">
+	<Attribute>
+		<id>pageSize</id>
+		<displayname>分页大小</displayname>
+		<type>int</type>
+		<size>10</size>
+	</Attribute>
+	<Attribute>
+		<id>pageCache</id>
+		<displayname>分页缓存</displayname>
+		<type>boolean</type>
+		<size>10</size>
+	</Attribute>
+	<Attribute>
+		<id>editable</id>
+		<displayname>是否可写</displayname>
+		<type>boolean</type>
+		<size>10</size>
+	</Attribute>
+	<Attribute>
+		<id>multiSelect</id>
+		<displayname>多选</displayname>
+		<type>boolean</type>
+		<size>10</size>
+	</Attribute>
+</Component>

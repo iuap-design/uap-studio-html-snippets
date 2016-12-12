@@ -1,14 +1,14 @@
 <!--
-.u-menu-bottom-left:×ó¶ÔÆë
-.u-menu-bottom-right:ÓÒ¶ÔÆë
+.u-menu-bottom-left:å·¦å¯¹é½
+.u-menu-bottom-right:å³å¯¹é½
 -->
 <button id="demo-menu-lower-left" class="u-button floating u-button-icon">
     <i class="uf uf-verticalellipsis"></i>
 </button>
-×ó¶ÔÆë
+å·¦å¯¹é½
 <ul class="u-menu u-menu-bottom-left" for="demo-menu-lower-left">
-    <li class="u-menu-item">ÐÂÔö</li>
-    <li class="u-menu-item">ÐÞ¸Ä</li>
-    <li disabled class="u-menu-item">É¾³ý</li>
-    <li class="u-menu-item">ÉóºË</li>
+    <li class="u-menu-item">æ–°å¢ž</li>
+    <li class="u-menu-item">ä¿®æ”¹</li>
+    <li disabled class="u-menu-item">åˆ é™¤</li>
+    <li class="u-menu-item">å®¡æ ¸</li>
 </ul>

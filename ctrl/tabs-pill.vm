@@ -1,30 +1,30 @@
-<!--tabs¿Ø¼þ  Ä¬ÈÏÊÇactive×´Ì¬ÎªÏßÐÔ¸úËæ Ìí¼ÓÐÞÊÎÀà.u-tabs-pill Îª±³¾°¸úËæ-->
+<!--tabsæŽ§ä»¶  é»˜è®¤æ˜¯activeçŠ¶æ€ä¸ºçº¿æ€§è·Ÿéš æ·»åŠ ä¿®é¥°ç±».u-tabs-pill ä¸ºèƒŒæ™¯è·Ÿéš-->
 <div class="u-tabs u-tabs-pill">
     <div class="u-tabs__tab-bar">
-        <a href="#tab-panel-1" class="u-tabs__tab is-active">Ò³Ç©1</a>
-        <a href="#tab-panel-2" class="u-tabs__tab">Ò³Ç©2</a>
-        <a href="#tab-panel-3" class="u-tabs__tab">Ò³Ç©3</a>
+        <a href="#tab-panel-1" class="u-tabs__tab is-active">é¡µç­¾1</a>
+        <a href="#tab-panel-2" class="u-tabs__tab">é¡µç­¾2</a>
+        <a href="#tab-panel-3" class="u-tabs__tab">é¡µç­¾3</a>
     </div>
     <div class="u-tabs__panel is-active" id="tab-panel-1">
         <ul>
-            <li>ÏîÄ¿1</li>
-            <li>ÏîÄ¿2</li>
-            <li>ÏîÄ¿3</li>
-            <li>ÏîÄ¿4</li>
-            <li>ÏîÄ¿5</li>
+            <li>é¡¹ç›®1</li>
+            <li>é¡¹ç›®2</li>
+            <li>é¡¹ç›®3</li>
+            <li>é¡¹ç›®4</li>
+            <li>é¡¹ç›®5</li>
         </ul>
     </div>
     <div class="u-tabs__panel" id="tab-panel-2">
         <ul>
-            <li>ÏîÄ¿1</li>
-            <li>ÏîÄ¿2</li>
-            <li>ÏîÄ¿3</li>
+            <li>é¡¹ç›®1</li>
+            <li>é¡¹ç›®2</li>
+            <li>é¡¹ç›®3</li>
         </ul>
     </div>
     <div class="u-tabs__panel" id="tab-panel-3">
         <ul>
-            <li>ÏîÄ¿1</li>
-            <li>ÏîÄ¿2</li>
+            <li>é¡¹ç›®1</li>
+            <li>é¡¹ç›®2</li>
         </ul>
     </div>
 </div>
