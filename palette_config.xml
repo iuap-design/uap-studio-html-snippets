@@ -5,54 +5,49 @@
 		name="布局" smallIcon="icons/">
 		<largeIcon></largeIcon>
 		<PaletteItem largeIcon="icons/" name="基本页面框架布局" smallIcon="icons/"
-			templateId="basicPageLayout" versions="3.1.1">
+			templateId="basicPageLayout" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>basicPage-layout.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="悬浮页面框架布局" smallIcon="icons/"
-			templateId="suspension-layout" versions="3.1.1">
+			templateId="suspension-layout" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>suspension-layout.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="可伸缩菜单布局" smallIcon="icons/"
-			templateId="shrinkLayout" versions="3.1.1">
+			templateId="shrinkLayout" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>shrink-layout.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="顶部菜单布局" smallIcon="icons/"
-			templateId="topNav-layout" versions="3.1.1">
+			templateId="topNav-layout" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>topNav-layout.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="卡片式布局" smallIcon="icons/"
-			templateId="cardLayout" versions="3.1.1">
+			templateId="cardLayout" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>card-layout.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="栅格布局" smallIcon="icons/layout1.png"
-			templateId="gridLayout" versions="3.1.1">
+			templateId="gridLayout" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>grid-layout.html</preview>
 		</PaletteItem>
-		<PaletteItem largeIcon="icons/" name="滑屏" smallIcon="icons/layout2.png"
-			templateId="mdLayout" versions="3.1.1">
-			<pluginId></pluginId>
-			<showDialog>false</showDialog>
-		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="面板" smallIcon="icons/"
-			templateId="widget-layout" versions="3.1.1">
+			templateId="widget-layout" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>widget-layout.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="导航布局" smallIcon="icons/"
-			templateId="navbarLayout" versions="3.1.1">
+			templateId="navbarLayout" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>nav-layout.html</preview>
@@ -62,7 +57,7 @@
 		name="控件" smallIcon="icons/">
 		<largeIcon></largeIcon>
 		<PaletteItem largeIcon="icons/" name="按钮" smallIcon="icons/component1.png"
-			templateId="button" versions="3.1.5">
+			templateId="button" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>button.html</preview>
@@ -73,7 +68,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="分页" smallIcon="icons/component2.png"
-			templateId="pagination" versions="3.1.5">
+			templateId="pagination" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -83,7 +78,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="单选框" smallIcon="icons/component3.png"
-			templateId="radio" versions="3.1.5">
+			templateId="radio" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>radio.html</preview>
@@ -94,7 +89,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="复选框" smallIcon="icons/component4.png"
-			templateId="checkbox" versions="3.1.5">
+			templateId="checkbox" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>checkbox.html</preview>
@@ -104,7 +99,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="开关" smallIcon="icons/component5.png"
-			templateId="switch" versions="3.1.5">
+			templateId="switch" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<preview>switch.html</preview>
@@ -115,7 +110,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="标签" smallIcon="icons/component6.png"
-			templateId="label" versions="3.1.5">
+			templateId="label" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -124,7 +119,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="表格" smallIcon="icons/component7.png"
-			templateId="datatable" versions="3.1.5">
+			templateId="datatable" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -145,7 +140,7 @@
             <showDialog>true</showDialog>
         </PaletteItem>
 		<PaletteItem largeIcon="icons/" name="图片" smallIcon="icons/component11.png"
-			templateId="image" versions="3.1.5">
+			templateId="image" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -154,7 +149,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="徽章" smallIcon="icons/component12.png"
-			templateId="badge" versions="3.1.5">
+			templateId="badge" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -163,7 +158,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="提示消息" smallIcon="icons/component13.png"
-			templateId="message" versions="3.1.5">
+			templateId="message" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -172,7 +167,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="页签" smallIcon="icons/component14.png"
-			templateId="tabs" versions="3.1.5">
+			templateId="tabs" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -181,7 +176,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="提示" smallIcon="icons/component15.png"
-			templateId="tooltip" versions="3.1.5">
+			templateId="tooltip" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -190,7 +185,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="面包屑" smallIcon="icons/component16.png"
-			templateId="breadcrumb" versions="3.1.5">
+			templateId="breadcrumb" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -199,7 +194,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="进度条" smallIcon="icons/component17.png"
-			templateId="progress" versions="3.1.5">
+			templateId="progress" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -208,7 +203,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="面板" smallIcon="icons/component18.png"
-			templateId="panel" versions="3.1.5">
+			templateId="panel" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -217,11 +212,11 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="流程" smallIcon="icons/component19.png"
-			templateId="pearls" versions="3.1.1">
+			templateId="pearls" version="3.1.1">
 			<pluginId></pluginId>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="模态框" smallIcon="icons/component20.png"
-			templateId="modal" versions="3.1.5">
+			templateId="modal" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -229,13 +224,8 @@
 					key="modal-confirmDialog,modal-custom" value="modal-confirmDialog.vm,modal-custom.vm"></property>
 			</properties>
 		</PaletteItem>
-		<PaletteItem largeIcon="icons/" name="评分" smallIcon="icons/component21.png"
-			templateId="rating" versions="3.1.1">
-			<pluginId></pluginId>
-			<showDialog>false</showDialog>
-		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="下拉菜单" smallIcon="icons/"
-			templateId="dropdown" versions="3.1.5">
+			templateId="dropdown" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -244,7 +234,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="按钮组" smallIcon="icons/"
-			templateId="buttongroup" versions="3.1.5">
+			templateId="buttongroup" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -253,7 +243,7 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="输入框组" smallIcon="icons/"
-			templateId="inputgroup" versions="3.1.5">
+			templateId="inputgroup" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -263,52 +253,52 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="缩略图" smallIcon="icons/"
-			templateId="thumbnail" versions="3.1.1">
+			templateId="thumbnail" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="表盘选择" smallIcon="icons/"
-			templateId="clockpicker" versions="3.1.1">
+			templateId="clockpicker" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="日期" smallIcon="icons/"
-			templateId="date" versions="3.1.1">
+			templateId="date" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="月份选择" smallIcon="icons/"
-			templateId="month" versions="3.1.1">
+			templateId="month" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="时分秒" smallIcon="icons/"
-			templateId="time" versions="3.1.1">
+			templateId="time" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="年份选择" smallIcon="icons/"
-			templateId="year" versions="3.1.1">
+			templateId="year" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="年月选择" smallIcon="icons/"
-			templateId="yearmonth" versions="3.1.1">
+			templateId="yearmonth" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="月日选择" smallIcon="icons/"
-			templateId="monthdate" versions="3.1.5">
+			templateId="monthdate" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="loading" smallIcon="icons/"
-			templateId="loading" versions="3.1.1">
+			templateId="loading" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="下拉框" smallIcon="icons/"
-			templateId="combobox" versions="3.1.5">
+			templateId="combobox" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
@@ -316,12 +306,12 @@
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="隐藏菜单" smallIcon="icons/"
-			templateId="menu" versions="3.1.1">
+			templateId="menu" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="树" smallIcon="icons/"
-			templateId="tree" versions="3.1.5">
+			templateId="tree" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
 			<properties>
