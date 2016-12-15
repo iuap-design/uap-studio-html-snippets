@@ -126,9 +126,9 @@
 				<property id="style" name="样式" type="enum"
 					key="datatable-base,datatable-border,datatable-hover,datatable-striped"
 					value="datatable-base.vm,datatable-border.vm,datatable-hover.vm,datatable-striped.vm"></property>
-				<property id="separator" type = "separator"></property>
+<!-- 				<property id="separator" type = "separator"></property>
 				<property id="row" name="行数" type="text"></property>
-				<property id="column" name="列数" type="text"></property>
+				<property id="column" name="列数" type="text"></property> -->
 			</properties>
 		</PaletteItem>
 		 <PaletteItem largeIcon="icons/" name="数据表格" smallIcon="icons/component9.png" templateId="grid">
