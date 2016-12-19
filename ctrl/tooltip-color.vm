@@ -1,9 +1,9 @@
 <!--
-.tooltip-primary:鍘熻壊
-.tooltip-success:缁胯壊
-.tooltip-warning:姗樿壊
-.tooltip-danger:绾㈣壊
-.tooltip-info:钃濊壊
+.tooltip-primary:原色
+.tooltip-success:绿色
+.tooltip-warning:橘色
+.tooltip-danger:红色
+.tooltip-info:蓝色
 -->
 <div class="tooltip tooltip-primary top active" role="tooltip">
     <div class="tooltip-arrow"></div>

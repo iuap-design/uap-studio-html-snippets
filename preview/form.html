@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Title</title>
+<link rel="stylesheet" href="http://design.yyuap.com/static/uploader/css/webuploader.css">
+<link rel="stylesheet" href="http://design.yyuap.com/static/uui/latest/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/u.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/tree.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/grid.css">
+<style id="demo-style" media="screen">
+/*.u-form-group h4{
+	line-height: 0px;
+    font-weight: normal;
+}
+.margin-bottom-30{
+	margin-bottom: 30px;
+}
+.margin-bottom-15{
+	margin-bottom: 15px;
+}
+
+.u-form-group{
+    margin-right: 0;
+}
+.u-form-control{
+    border: 1px solid #E4EAEC;
+}*/
+.u-form-label{
+    line-height: 35px;
+    text-align: right;
+}
+.u-form-group{
+    margin-right: 0;
+}
+.margin-top-5{
+    margin-top: 5px;
+}
+.u-form-group-lg .u-form-label {
+    padding-top: 11px;
+    font-size: 18px;
+}
+.u-form-group-lg .u-form-control {
+    height: 46px;
+    padding: 10px 18px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 4px;
+}
+..u-form-group-sm .u-form-label {
+    padding-top: 7px;
+    font-size: 12px;
+}
+.u-form-group-sm .u-form-control {
+    height: 32px;
+    padding: 6px 13px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 2px;
+}
+</style>
+</head>
+<body style="background-color: #eceff1;margin-left: 20px;width: calc(100% - 20px );">
+<div class="u-container u-widget-bg">
+    <div class="u-widget p-md">
+        <h3>基础表单</h3>
+            <div class="u-row">
+                <div class="u-col-6">
+                    <form>
+                      <div class="u-row">
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <h4>姓名</h4>
+                            <input type="text" class="u-form-control" placeholder="请输入姓名">
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <h4>性别</h4>
+                            <label  class="u-radio u-col-3" for="option-1">
+                                <input type="radio" id="option-1" class="u-radio-button" name="options">
+                                <label for="inputBasicMale">男</label>
+                            </label>
+                            <label  class="u-radio u-col-3" for="option-2">
+                                <input type="radio" id="option-2" class="u-radio-button" name="options" checked>
+                                <label for="inputBasicMale">女</label>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <h4>邮箱</h4>
+                            <input type="text" class="u-form-control" placeholder="请输入邮箱">
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <h4>密码</h4>
+                            <input type="text" class="u-form-control" placeholder="请输入密码">
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <label  class="u-checkbox">
+                                <input type="checkbox" class="u-checkbox-input" checked>
+                                <label for="inputBasicMale">记住我</label>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <button class="u-button raised primary ">注册
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+                <div class="u-col-6">
+                    <form>
+                      <div class="u-row">
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <input type="text" class="u-form-control" placeholder="请输入姓名">
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <label  class="u-radio u-col-3" for="option-1">
+                                <input type="radio" id="option-1" class="u-radio-button" name="options">
+                                <label for="inputBasicMale">男</label>
+                            </label>
+                            <label  class="u-radio u-col-3" for="option-2">
+                                <input type="radio" id="option-2" class="u-radio-button" name="options" checked>
+                                <label for="inputBasicMale">女</label>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <input type="text" class="u-form-control" placeholder="请输入邮箱">
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <input type="text" class="u-form-control" placeholder="请输入密码">
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <textarea class="u-form-control" rows="3"></textarea>
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <label  class="u-checkbox">
+                                <input type="checkbox" class="u-checkbox-input" checked>
+                                <label for="inputBasicMale">同意</label>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <button class="u-button raised primary ">提交
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+            <div class="u-row">
+                <div class="u-col-8 u-col-offset-1">
+                    <form>
+                      <div class="u-row">
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <label class="u-col-3 u-form-label">姓名</label>
+                            <div class="u-col-9">
+                                <input type="text" class="u-form-control" placeholder="请输入姓名">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <label class="u-col-3 u-form-label">性别:</label>
+                            <div class="u-col-9">
+                                <label  class="u-radio u-col-3" for="option-1">
+                                    <input type="radio" id="option-1" class="u-radio-button" name="options">
+                                    <label for="inputBasicMale">男</label>
+                                </label>
+                                <label  class="u-radio u-col-3" for="option-2">
+                                    <input type="radio" id="option-2" class="u-radio-button" name="options" checked>
+                                    <label for="inputBasicMale">女</label>
+                                </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <label class="u-col-3 u-form-label">邮箱:</label>
+                            <div class="u-col-9">
+                                <input type="text" class="u-form-control" placeholder="请输入邮箱">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="u-col-12">
+                          <div class="u-form-group">
+                            <label class="u-col-3 u-form-label">描述:</label>
+                            <div class="u-col-9">
+                                <textarea class="u-form-control" rows="3"></textarea>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="u-col-6 u-col-offset-4">
+                          <div class="u-form-group">
+                            <button class="u-button raised primary ">注册
+                            </button>
+                            <button class="u-button raised ">重置
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+    <div class="u-widget p-md">
+            <h4>行内表单</h4>
+            <div class="u-row">
+                <div class="u-col-12">
+                    <form>
+                      <div class="u-row">
+                        <div class="u-col-4">
+                          <div class="u-form-group">
+                            <label class="u-col-3 u-form-label">用户名:</label>
+                            <div class="u-col-offset-1 u-col-8">
+                                <input type="text" class="u-form-control" placeholder="请输入用户名">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="u-col-4">
+                          <div class="u-form-group">
+                            <label class="u-col-3 u-form-label">密码:</label>
+                            <div class="u-col-offset-1 u-col-8">
+                                <input type="text" class="u-form-control" placeholder="请输入密码">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="u-col-2">
+                          <div class="u-form-group margin-top-5">
+                            <label  class="u-checkbox">
+                                <input type="checkbox" class="u-checkbox-input" checked>
+                                <label for="inputBasicMale">记住我</label>
+                            </label>
+                          </div>
+                        </div>
+
+
+                        <div class="u-col-2">
+                          <div class="u-form-group">
+                            <button class="u-button raised primary ">登录
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+            <div class="u-row">
+                <div class="u-col-12">
+                    <form>
+                      <div class="u-row">
+                        <div class="u-col-4">
+                          <div class="u-form-group">
+                            <input type="text" class="u-form-control" placeholder="请输入用户名">
+                          </div>
+                        </div>
+                        <div class="u-col-4">
+                          <div class="u-form-group">
+                            <input type="text" class="u-form-control" placeholder="请输入密码">
+                          </div>
+                        </div>
+                        <div class="u-col-2">
+                          <div class="u-form-group">
+                            <button class="u-button raised primary ">登录
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+            <h4>尺寸</h4>
+            <div class="u-row">
+                <div class="u-col-12">
+                    <form>
+                      <div class="u-row">
+                        <div class="u-col-8">
+                          <div class="u-form-group u-form-group-lg">
+                            <label class="u-col-3 u-form-label">大:</label>
+                            <div class="u-col-8">
+                                <input type="text" class="u-form-control" placeholder="大号的输入框">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="u-col-8">
+                          <div class="u-form-group">
+                            <label class="u-col-3 u-form-label"> 正常:</label>
+                            <div class="u-col-8">
+                                <input type="text" class="u-form-control" placeholder="正常的输入框">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="u-col-8">
+                          <div class="u-form-group u-form-group-sm">
+                            <label class="u-col-3 u-form-label">小:</label>
+                            <div class="u-col-8">
+                                <input type="text" class="u-form-control" placeholder="小号的输入框">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+</div>
+
+<script src="http://design.yyuap.com/static/jquery/jquery-1.11.2.js"></script>
+<script src="http://design.yyuap.com/static/uploader/js/webuploader.js"></script>
+<script src="http://design.yyuap.com/static/knockout/knockout-3.2.0.debug.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-polyfill.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-tree.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-grid.js"></script>
+<script src="http://design.yyuap.com/static/requirejs/require.debug.js"></script>
+<script>
+
+</script>
+</body>
+</html>

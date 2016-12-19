@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Title</title>
+<link rel="stylesheet" href="http://design.yyuap.com/static/uploader/css/webuploader.css">
+<link rel="stylesheet" href="http://design.yyuap.com/static/uui/latest/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/u.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/tree.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/grid.css">
+<style id="demo-style" media="screen">
+/*消息框弹出开始*/
+
+/*消息框弹出结束*/
+
+/*消息提示开始*/
+.message-demo .u-widget-body{
+	min-height: 280px;
+}
+
+.margin-r-10{
+    margin-right: 10px; 
+}
+.example .u-message{
+    position: inherit;
+}
+
+.margin-r-5{
+    margin-right: 5px; 
+}
+/*消息提示结束*/
+
+/*工具提示开始*/
+.example{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.example>.tooltip{
+    opacity: 1;
+    position: absolute;
+}
+.tooltip-rotate{
+    filter: alpha(opacity=0);
+    opacity: 0!important;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.rotate{
+    filter: alpha(opacity=100);
+    opacity: 1!important;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+/*工具提示结束*/
+</style>
+</head>
+<body style="background-color: #eceff1;margin-left: 20px;width: calc(100% - 20px );">
+<!-- 消息框弹出开始 -->
+<h3>消息弹出框</h3>
+<div class="u-container-fluid u-widget-bg">
+    <div class="u-row">
+        <div class="u-col-md-4">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">消息提示框</h3>
+                </div>
+                <div class="u-widget-body">
+                    <button id="msgDialogBtn" class="u-button raised accent">提示框</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="u-col-md-4">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">消息确认框</h3>
+                </div>
+                <div class="u-widget-body">
+                    <button id="msgDialogBtn2" class="u-button raised accent">确认框</button>
+                </div>
+            </div>
+        </div>
+   
+        <div class="u-col-md-4">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">模态框</h3>
+                </div>
+                <div class="u-widget-body">
+                    <button id="msgDialogBtn3" class="u-button raised accent">模态框</button>
+                    <div id="dialog_content" style="display:none;">
+                        <div class="u-msg-title">
+                            <h4>单据名称</h4>
+                        </div>
+                        <div class="u-msg-content">
+                            <p>单据内容区</p>
+                        </div>
+                        <div class="u-msg-footer">
+                            <button class="u-msg-ok   primary raised u-button">保存<span class="u-button-container"><span class="u-ripple"></span></span>
+                            </button>
+                            <button class="u-msg-cancel u-button">取消<span class="u-button-container"><span class="u-ripple"></span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>   
+<!-- 消息框弹出结束 -->
+
+<!-- 消息提示开始 -->
+<h3>消息提示</h3>
+<div class="u-container-fluid u-widget-bg message-demo">
+    <div class="u-row">
+        <div class="u-col-6 u-col-xm-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">消息提示</h3>
+                </div>
+                <div class="u-widget-body">
+                <!--消息提示代码 -->
+                    <div class="example">
+                        <div class="u-message u-mesnews active" >    
+                            <span class="u-msg-close uf uf-removesymbol"></span>
+                            News!
+                        </div>
+                        <div class="u-message u-mesinfo active">
+                            <span class="u-msg-close uf uf-removesymbol"></span>
+                            Info!
+                        </div>
+                        <div class="u-message u-messuccess active">    
+                            <span class="u-msg-close uf uf-removesymbol"></span>
+                            Success!
+                        </div>
+                        <div class="u-message u-mesdanger active">
+                            <span class="u-msg-close uf uf-removesymbol"></span>
+                            Danger!
+                        </div>
+                        <div class="u-message u-meswarning active">
+                            <span class="u-msg-close uf uf-removesymbol"></span>
+                            Warning!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-col-6 u-col-xm-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">动态消息提示(点击按钮弹出消息)</h3>
+                </div>
+                <div class="u-widget-body">
+                <!--消息提示代码 -->
+                    <button id="msgBtn" class="u-button">Success</button>
+                    <button id="errorBtn" class="u-button">Error</button>
+                    <button id="warnBtn" class="u-button">Warning</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 消息提示结束 -->
+
+
+<script src="http://design.yyuap.com/static/jquery/jquery-1.11.2.js"></script>
+<script src="http://design.yyuap.com/static/uploader/js/webuploader.js"></script>
+<script src="http://design.yyuap.com/static/knockout/knockout-3.2.0.debug.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-polyfill.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-tree.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-grid.js"></script>
+<script src="http://design.yyuap.com/static/requirejs/require.debug.js"></script>
+<script>
+// 消息框弹出开始
+    u.compMgr.apply({
+        el: 'body'
+    })
+
+    var msgBtn = document.body.querySelector("#msgDialogBtn");
+    u.on(msgBtn, 'click', function() {
+        //            u.showMessage("HELLO!!!");
+        u.messageDialog({ msg: "HELLO!!!", title: "测试提示", btnText: "OK!" });
+    })
+
+    //  确认消息框
+    var msgBtn2 = document.body.querySelector("#msgDialogBtn2");
+    u.on(msgBtn2, 'click', function() {
+        //            u.showMessage("HELLO!!!");
+        u.confirmDialog({
+            msg: "是否保存单据？",
+            title: "测试确认",
+            onOk: function() {
+                alert('ok')
+            },
+            onCancel: function() {
+                alert('cancel')
+            }
+        });
+    })
+
+
+
+    var okButton = document.body.querySelector(".u-msg-ok");
+    u.on(okButton, 'click', function() {
+        alert('ok');
+    });
+
+    var cancelButton = document.body.querySelector(".u-msg-cancel");
+    u.on(cancelButton, 'click', function() {
+        md.close();
+    });
+
+    // 模态框
+    var msgBtn3 = document.body.querySelector("#msgDialogBtn3");
+    u.on(msgBtn3, 'click', function() {
+        window.md = u.dialog({ id: 'testDialg', content: "#dialog_content", hasCloseMenu: true });
+    });
+// 消息框弹出结束
+
+// 消息提示开始
+    var msgBtn = document.body.querySelector("#msgBtn");
+    var errorBtn = document.body.querySelector("#errorBtn");
+    var warnBtn = document.body.querySelector("#warnBtn");
+    var rightInfo='<i class="uf uf-checkedsymbol margin-r-5"></i>成功信息!!!';
+    u.on(msgBtn,'click', function(){
+        u.showMessage({msg:rightInfo,position:"center",msgType:"success"})
+    })
+
+    var errorInfo='<i class="uf uf-crossmarkonablackcirclebackground margin-r-5"></i>错误信息!!!'
+    u.on(errorBtn,'click', function(){
+        u.showMessage({msg:errorInfo,position:"center",msgType:"error"})
+    })
+
+    var warningInfo='<i class="uf uf-exclamationsign margin-r-5"></i>警告信息!!!';
+    u.on(warnBtn,'click', function(){
+        u.showMessage({msg:warningInfo,position:"center",msgType:"warning"})
+    })
+// 消息提示结束
+
+// 工具提示开始
+    $('.u-button-tooltip-left').on('click',function () {
+        var left=$(this).get(0).offsetLeft+$(this).get(0).clientWidth;
+        var top=$(this).get(0).offsetTop;
+        var $tooltip=$(this).next();
+        $tooltip.css('left',left+10);
+        $tooltip.css('top',top);
+        if($tooltip.is(':hidden')){
+            $tooltip.show();
+        }else{
+            $tooltip.hide()
+        }
+    });
+    $('.tooltip-rotate').each(function () {
+        var $btn=$(this).prev();
+        $(this).css('left',$btn.get(0).clientWidth+$btn.get(0).offsetLeft+10);
+        $(this).css('top',$btn.get(0).offsetTop);
+    });
+    $('.u-button-tooltip-rotate').hover(function () {
+        var left=$(this).get(0).clientWidth;
+        var top=$(this).get(0).offsetTop;
+        var $tooltip=$(this).next();
+        $tooltip.css('left',left+40);
+        $tooltip.css('top',top);
+        $tooltip.addClass('rotate');
+    },function () {
+        var left=$(this).get(0).clientWidth;
+        var top=$(this).get(0).offsetTop;
+        var $tooltip=$(this).next();
+        $tooltip.css('left',left+40);
+        $tooltip.css('top',top);
+        $tooltip.removeClass('rotate');
+    });
+// 工具提示结束
+
+</script>
+</body>
+</html>

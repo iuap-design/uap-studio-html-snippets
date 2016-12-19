@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Title</title>
+<link rel="stylesheet" href="http://design.yyuap.com/static/uploader/css/webuploader.css">
+<link rel="stylesheet" href="http://design.yyuap.com/static/uui/latest/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/u.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/tree.css">
+<link rel="stylesheet" type="text/css" href="http://design.yyuap.com/static/uui/latest/css/grid.css">
+<style id="demo-style" media="screen">
+#paginationColor > .active > a, #paginationColor > .active > span, #paginationColor > .active > a:hover, #paginationColor > .active > span:hover, #paginationColor > .active > a:focus, #paginationColor > .active > span:focus {
+    color: #fff;
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+
+.u-widget-body .desc{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.u-widget-body.pagination-center{
+    text-align: center;
+}
+.u-widget-body.pagination-right{
+    text-align: right;
+}
+.u-pagination.pagination-center,.u-pagination.pagination-right{
+    display: inline-block!important;
+}
+
+</style>
+</head>
+<body style="background-color: #eceff1;margin-left: 20px;width: calc(100% - 20px );">
+<div class="u-container-fluid u-widget-bg">
+    <div class="u-row">
+        <div class="u-col-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">默认分页</h3>
+                </div>
+                <div class="u-widget-body">
+                    <div id='pagination' class='u-pagination'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-col-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">无边框分页</h3>
+                </div>
+                <div class="u-widget-body">
+                    <p class="desc">
+                        添加.u-pagination-no-border来设置无边框分页
+                    </p>
+                    <div id='paginationNoBorder' class='u-pagination u-pagination-no-border'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-col-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">有间距的分页</h3>
+                </div>
+                <div class="u-widget-body">
+                    <p class="desc">
+                        添加.pagination-gap类设置又间隙的分页
+                    </p>
+                    <div id='paginationGap' class='u-pagination pagination-gap'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-col-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">大尺寸</h3>
+                </div>
+                <div class="u-widget-body">
+                    <p class="desc">
+                        添加.pagination-lg设置大尺寸分页
+                    </p>
+                    <div id='paginationLg' class='u-pagination pagination-lg'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-col-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">默认尺寸</h3>
+                </div>
+                <div class="u-widget-body">
+                    <div id='paginationDefault' class='u-pagination'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-col-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">小尺寸</h3>
+                </div>
+                <div class="u-widget-body">
+                    <p class="desc">
+                        添加.pagination-sm设置小尺寸分页
+                    </p>
+                    <div id='paginationSm' class='u-pagination pagination-sm'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-col-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">更换颜色</h3>
+                </div>
+                <div class="u-widget-body">
+                    <p class="desc">
+
+                    </p>
+                    <div id='paginationColor' class='u-pagination'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-col-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">居中分页</h3>
+                </div>
+                <div class="u-widget-body pagination-center">
+                    <div id='pagination-center' class='u-pagination pagination-center'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-col-12">
+            <div class="u-widget">
+                <div class="u-widget-heading">
+                    <h3 class="u-widget-title">居右分页</h3>
+                </div>
+                <div class="u-widget-body pagination-right">
+                    <div id='pagination-right' class='u-pagination pagination-right'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://design.yyuap.com/static/jquery/jquery-1.11.2.js"></script>
+<script src="http://design.yyuap.com/static/uploader/js/webuploader.js"></script>
+<script src="http://design.yyuap.com/static/knockout/knockout-3.2.0.debug.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-polyfill.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-tree.js"></script>
+<script src="http://design.yyuap.com/static/uui/latest/js/u-grid.js"></script>
+<script src="http://design.yyuap.com/static/requirejs/require.debug.js"></script>
+<script>
+  var element = document.getElementById('pagination');
+  var comp = new u.pagination({
+      el: element,
+      jumppage: true
+  });
+  comp.update({
+      totalPages: 100,
+      pageSize: 20,
+      currentPage: 1,
+      totalCount: 200
+  });
+
+  this.comp.on('pageChange', function(pageIndex) {
+      console.log('新的页号为' + pageIndex);
+  });
+
+  this.comp.on('sizeChange', function(arg) {
+      console.log('每页显示条数为' + arg[0]);
+  });
+  //无边框分页
+  var paginationNoBorder = document.getElementById('paginationNoBorder');
+  var comp = new u.pagination({
+      el: paginationNoBorder,
+      jumppage: true
+  });
+  comp.update({
+      totalPages: 100,
+      pageSize: 20,
+      currentPage: 1,
+      totalCount: 200
+  });
+
+  //有间距的分页
+  var paginationGap = document.getElementById('paginationGap');
+  var comp = new u.pagination({
+      el: paginationGap,
+      jumppage: true
+  });
+  comp.update({
+      totalPages: 100,
+      pageSize: 20,
+      currentPage: 1,
+      totalCount: 200
+  });
+
+  //大尺寸分页
+  var paginationLg = document.getElementById('paginationLg');
+  var comp = new u.pagination({
+      el: paginationLg,
+      jumppage: true
+  });
+  comp.update({
+      totalPages: 100,
+      pageSize: 20,
+      currentPage: 1,
+      totalCount: 200,
+      showState: false
+  });
+
+  //默认尺寸分页
+  var paginationDefault = document.getElementById('paginationDefault');
+  var comp = new u.pagination({
+      el: paginationDefault,
+      jumppage: true
+  });
+  comp.update({
+      totalPages: 100,
+      pageSize: 20,
+      currentPage: 1,
+      totalCount: 200,
+      showState: false
+  });
+
+  //小尺寸分页
+  var paginationSm = document.getElementById('paginationSm');
+  var comp = new u.pagination({
+      el: paginationSm,
+      jumppage: true
+  });
+  comp.update({
+      totalPages: 100,
+      pageSize: 20,
+      currentPage: 1,
+      totalCount: 200,
+      showState: false
+  });
+
+  //更换颜色分页
+  var paginationSm = document.getElementById('paginationColor');
+  var comp = new u.pagination({
+      el: paginationSm,
+      jumppage: true
+  });
+  comp.update({
+      totalPages: 100,
+      pageSize: 20,
+      currentPage: 1,
+      totalCount: 200,
+      showState: false
+  });
+
+  //居中分页
+  var element = document.getElementById('pagination-center');
+  var comp = new u.pagination({
+      el: element,
+      jumppage: true
+  });
+  comp.update({
+      totalPages: 100,
+      pageSize: 20,
+      currentPage: 1,
+      totalCount: 200
+  });
+
+  this.comp.on('pageChange', function(pageIndex) {
+      console.log('新的页号为' + pageIndex);
+  });
+
+  this.comp.on('sizeChange', function(arg) {
+      console.log('每页显示条数为' + arg[0]);
+  });
+
+  //居右分页
+  var element = document.getElementById('pagination-right');
+  var comp = new u.pagination({
+      el: element,
+      jumppage: true
+  });
+  comp.update({
+      totalPages: 100,
+      pageSize: 20,
+      currentPage: 1,
+      totalCount: 200
+  });
+
+  this.comp.on('pageChange', function(pageIndex) {
+      console.log('新的页号为' + pageIndex);
+  });
+
+  this.comp.on('sizeChange', function(arg) {
+      console.log('每页显示条数为' + arg[0]);
+  });
+
+</script>
+</body>
+</html>
