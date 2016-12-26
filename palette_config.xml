@@ -71,6 +71,7 @@
 			templateId="pagination" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>pagination.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="pagination-center,pagination-gap,pagination-noborder,pagination-right,pagination-size"
@@ -113,15 +114,17 @@
 			templateId="label" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>label.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
-					key="default,label-outline,label-round,label-size" value="label.vm,label-outline.vm,label-round.vm,label-size"></property>
+					key="default,label-outline,label-round,label-size" value="label.vm,label-outline.vm,label-round.vm,label-size.vm"></property>
 			</properties>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="表格" smallIcon="icons/component7.png"
 			templateId="datatable" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>table.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="datatable-base,datatable-border,datatable-hover,datatable-striped"
@@ -134,15 +137,18 @@
 		 <PaletteItem largeIcon="icons/" name="数据表格" smallIcon="icons/component9.png" templateId="grid">
             <pluginId></pluginId>
             <showDialog>true</showDialog>
+            <preview>grid.html</preview>
         </PaletteItem>
         <PaletteItem largeIcon="icons/" name="数据表单" smallIcon="icons/component10.png" templateId="form">
             <pluginId></pluginId>
             <showDialog>true</showDialog>
+            <preview>form.html</preview>
         </PaletteItem>
 		<PaletteItem largeIcon="icons/" name="图片" smallIcon="icons/component11.png"
 			templateId="image" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>image.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="image-border,image-circle" value="image-border.vm,image-circle.vm"></property>
@@ -152,6 +158,7 @@
 			templateId="badge" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>badge.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum" key="default,badge-color"
 					value="badge.vm,badge-color.vm"></property>
@@ -161,6 +168,7 @@
 			templateId="message" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>message.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum" key="default,message-dark"
 					value="message.vm,message-dark.vm"></property>
@@ -170,6 +178,7 @@
 			templateId="tabs" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>tab.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum" key="default,tabs-pill"
 					value="tabs.vm,tabs-pill.vm"></property>
@@ -179,6 +188,7 @@
 			templateId="tooltip" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>tooltip.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="tooltip-color,tooltip-direction" value="tooltip-color.vm,tooltip-direction.vm"></property>
@@ -188,6 +198,7 @@
 			templateId="breadcrumb" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>breadcrumb.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="default,breadcrumb-arrow" value="breadcrumb.vm,breadcrumb-arrow.vm"></property>
@@ -197,6 +208,7 @@
 			templateId="progress" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>progress.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="default,progress-buffer,progress-indeterminate" value="progress.vm,progress-buffer.vm,progress-indeterminate.vm"></property>
@@ -206,6 +218,7 @@
 			templateId="panel" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>panel.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="panel-body,panel-footer,panel-head-footer" value="panel-body.vm,panel-footer.vm,panel-head-footer.vm"></property>
@@ -214,11 +227,14 @@
 		<PaletteItem largeIcon="icons/" name="流程" smallIcon="icons/component19.png"
 			templateId="pearls" version="3.1.1">
 			<pluginId></pluginId>
+			<showDialog>false</showDialog>
+			<preview>pearls.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="模态框" smallIcon="icons/component20.png"
 			templateId="modal" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>modal.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="modal-confirmDialog,modal-custom" value="modal-confirmDialog.vm,modal-custom.vm"></property>
@@ -228,6 +244,7 @@
 			templateId="dropdown" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>drop-down-menu.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="dropdown-basic,dropdown-color,dropdown-position" value="dropdown-basic.vm,dropdown-color.vm,dropdown-position.vm"></property>
@@ -237,6 +254,7 @@
 			templateId="buttongroup" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>buttongroup.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="buttongroup-basic,buttongroup-size" value="buttongroup-basic.vm,buttongroup-size.vm"></property>
@@ -246,6 +264,7 @@
 			templateId="inputgroup" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>inputgroup.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum"
 					key="inputgroup-button,inputgroup-button-split,inputgroup-checkbox,inputgroup-radio,inputgroup-size"
@@ -256,51 +275,61 @@
 			templateId="thumbnail" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>thumbnail.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="表盘选择" smallIcon="icons/"
 			templateId="clockpicker" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>clockpicker.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="日期" smallIcon="icons/"
 			templateId="date" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>year-hour-min-second.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="月份选择" smallIcon="icons/"
 			templateId="month" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>month.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="时分秒" smallIcon="icons/"
 			templateId="time" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>tine.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="年份选择" smallIcon="icons/"
 			templateId="year" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>year.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="年月选择" smallIcon="icons/"
 			templateId="yearmonth" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>year-month.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="月日选择" smallIcon="icons/"
 			templateId="monthdate" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>month-day.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="loading" smallIcon="icons/"
 			templateId="loading" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>loading.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="下拉框" smallIcon="icons/"
 			templateId="combobox" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>dropdown-list.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum" key="combobox-default" value="combobox-default.vm"></property>
 			</properties>
@@ -309,11 +338,13 @@
 			templateId="menu" version="3.1.1">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>menu-hide.html</preview>
 		</PaletteItem>
 		<PaletteItem largeIcon="icons/" name="树" smallIcon="icons/"
 			templateId="tree" version="3.1.5">
 			<pluginId></pluginId>
 			<showDialog>false</showDialog>
+			<preview>tree.html</preview>
 			<properties>
 				<property id="style" name="样式" type="enum" key="tree-bageIcon,tree-expIcon,tree-markIcon,tree-plusIcon,tree-searchIcon" value="tree-bageIcon.vm,tree-expIcon.vm,tree-markIcon.vm,tree-plusIcon.vm,tree-searchIcon.vm"></property>
 			</properties>
